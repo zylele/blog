@@ -1,0 +1,32 @@
+# 配置语言及相应版本
+language: node_js
+sudo: false
+node_js: stable
+# 项目所在分支
+branches:
+  only:
+  - master
+# node_modules 缓存
+cache:
+  directories:
+  - node_modules
+# 配置环境
+before_install:
+# 替换为刚才生成的解密信息
+- openssl aes-256-cbc -K $encrypted_c171215980a9_key -iv $encrypted_c171215980a9_iv -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
+# 改变文件权限
+- chmod 600 ~/.ssh/id_rsa
+# 配置 ssh
+- eval $(ssh-agent)
+- ssh-add ~/.ssh/id_rsa
+- cp .travis/ssh_config ~/.ssh/config
+# 配置 git 替换为自己的信息
+- git config --global user.name 'zylele'
+- git config --global user.email 657345933@qq.com
+# 安装依赖
+install:
+- npm install
+# 部署的命令
+script:
+- hexo clean
+- hexo g -d

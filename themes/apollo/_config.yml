@@ -1,0 +1,21 @@
+menu:
+    首页: /
+    归档: /archives/
+    weibo: http://weibo.com/lelewan
+    GayHub: https://github.com/zylele
+    关于: /about/
+
+favicon: /favicon.png
+logo: /favicon.png
+
+# Comment
+# e.g disqus: seansun
+disqus:
+duoshuo:
+
+# Analytics
+# google-analytics:
+ga: 
+
+# Copyright Infomation
+startyear: 2015
