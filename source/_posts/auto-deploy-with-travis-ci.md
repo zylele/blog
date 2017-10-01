@@ -6,7 +6,7 @@ tags:
   - CI
 ---
 
-{% fi /img/auto-deploy-hexo-with-travis-ci/travis-ci.png, travis-ci, Travis CI %}
+![Travis CI](/img/auto-deploy-hexo-with-travis-ci/travis-ci.png)
 
 本文以部署基于Node.js的静态博客框架hexo为例
 
