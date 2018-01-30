@@ -45,8 +45,6 @@
 
 #### 技术owner&主力研发成员 · 2017/06 - 至今
 
-架构：Dubbox、SpringMVC、SpringBoot、RabbitMQ、Mybatis、Solr、Elasticsearch、Redis、Webmagic
-
 - 旅居平台业务线多次技术owner
 - 搭建民宿房东多平台日历同步系统、有效降低房客预订失败率80%以上
 - 民宿、驿搜索的维护与优化、搜索规则可视化管理
@@ -70,8 +68,6 @@
 
 #### 主力研发成员 · 2016/02 - 2017/06
 
-架构：Spring、DropWizard、Hessian、Dubbox、Moquette、RabbitMQ、Struts、Mybatis、Solr
-
 - 处理后端逻辑开发工作，持续维护线上系统
 - 搭建日志数据平台原型
 - 优化直播间广播机制，性能提高100%以上
@@ -94,8 +90,6 @@
 ### 鼎天富商城 / 企业级智能桌牌(安卓平板App) / 平潭市场监管综合服务平台 / 环保局协同办公系统
 
 #### 主要开发成员 · 2014/07 - 2016/02
-
-架构：SpringMVC、LigerUI、Quartz、Echarts、LigerUI、Mybatis，安卓多层级结构树、fragment自适应布局、SQLite文件双缓存、SIP协议语音通话
 
 - 数据报表
 - 后台商品管理、库存管理、订单管理、视频监控流存储管理
