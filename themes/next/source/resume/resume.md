@@ -112,11 +112,11 @@
 
 ### 微信小程序 · 计日指期
 
-计日指期是一个计算起始日、倒数日、日期间隔的小程序。
+计日指期是一个各种日期计算的小程序。
 
 ### dubbokeeper-mqs(https://github.com/zylele/dubbokeeper-mqs)
 
-MySQL持久化监控分析的Dubbo服务管理系统。
+基于MySQL持久化的Dubbo服务监控分析管理系统。
 
 ---
 
