@@ -1,5 +1,5 @@
 ---
-title: 用Travis CI自动部署GayHub项目
+title: 用Travis CI自动部署GitHub项目
 date: 2017-09-10 23:19:05
 tags: 
   - hexo
