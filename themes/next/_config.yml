@@ -95,9 +95,7 @@ scheme: Muse
 social:
   GitHub: https://github.com/zylele || github
   微博: http://weibo.com/lelewan || weibo
-  豆瓣: https://www.douban.com/people/znyalor || heartbeat
   领英: https://www.linkedin.com/in/znyalor || linkedin
-  知乎: https://www.zhihu.com/people/znyalor || heartbeat
 
 social_icons:
   enable: true
@@ -642,7 +640,7 @@ vendors:
 
   # Internal version: 4.6.2
   # See: http://fontawesome.io/
-  fontawesome: //maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css
+  fontawesome: //cdn.bootcss.com/font-awesome/4.6.2/css/font-awesome.min.css
 
   # Internal version: 1
   # https://www.algolia.com
