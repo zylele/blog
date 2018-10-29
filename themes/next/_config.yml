@@ -546,7 +546,7 @@ tabs:
 
 # Motion
 motion:
-  enable: true
+  enable: false
   async: false
   transition:
     # Transition variants:
@@ -691,6 +691,6 @@ images: images
 # Theme version
 version: 5.1.2
 
-reward_comment: 点击按钮，就能爱我    
+reward_comment: 点击按钮，就能爱我
 wechatpay: /img/sys/wechat-reward-image.jpg
 alipay: /img/sys/alipay-reward-image.jpg
