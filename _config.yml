@@ -2,42 +2,18 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# --- new config start ---
-
-# next config
-avatar: /img/sys/avatar.jpg
-
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
-
-# seo开启时，此字段将代替description
-signature: 一天到晚搞事情
-
-# apollo config
-# 在归档页面显示所有文章
-# 需要上面安装的 hexo-generator-archive 插件支持
-archive_generator:
-    per_page: 0
-    yearly: false
-    monthly: false
-    daily: false
-
-# --- new config end ---
-
 # Site
 title: 乐章
 subtitle: Stay young, stay simple
 description: 一天到晚搞事情
+keywords:
 author: Lele
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://lle.coding.me/
+url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -106,3 +82,220 @@ deploy:
   repo: 
     github: git@github.com:zylele/zylele.github.io.git,master
     coding: git@git.dev.tencent.com:lle/lle.git,master
+
+
+# ---------------------------------------------------------------
+# theme_config Settings
+# ---------------------------------------------------------------
+
+theme_config:
+  # Local search
+  # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
+  search:
+    path: search.xml
+    field: post
+    format: html
+    limit: 10000
+
+  # To get or check favicons visit: https://realfavicongenerator.net
+  # Put your favicons into `hexo-site/source/` (recommend) or `hexo-site/themes/next/source/images/` directory.
+
+  # Default NexT favicons placed in `hexo-site/themes/next/source/images/` directory.
+  # And if you want to place your icons in `hexo-site/source/` root directory, you must remove `/images` prefix from pathes.
+
+  # For example, you put your favicons into `hexo-site/source/images` directory.
+  # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
+  favicon:
+    small: /images/favicon-16x16-next.png
+    medium: /images/favicon-32x32-next.png
+    apple_touch_icon: /images/apple-touch-icon-next.png
+    safari_pinned_tab: /images/logo.svg
+
+  footer:
+    # Specify the date when the site was setup.
+    # If not defined, current year will be used.
+    since: 2015
+
+    # Icon between year and copyright info.
+    icon:
+      # Icon name in fontawesome, see: https://fontawesome.com/v4.7.0/icons
+      # `heart` is recommended with animation in red (#ff0000).
+      name: heart
+      # If you want to animate the icon, set it to true.
+      animated: false
+      # Change the color of icon, using Hex Code.
+      color: "#808080"
+
+  # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
+  seo: true
+
+  # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash from link value (/archives -> archives).
+  # Usage: `Key: /link/ || icon`
+  # Key is the name of menu item. If translate for this menu will find in languages - this translate will be loaded; if not - Key name will be used. Key is case-senstive.
+  # Value before `||` delimeter is the target link.
+  # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
+  menu:
+    home: / || home
+    archives: /archives/ || archive
+    tags: /tags/ || tags
+    about: /about/ || user
+
+  # Enable/Disable menu icons / item badges.
+  menu_settings:
+    icons: true
+    badges: false
+
+  # Schemes
+  scheme: Muse
+  #scheme: Mist
+  #scheme: Pisces
+  #scheme: Gemini
+
+  # Social Links.
+  # Usage: `Key: permalink || icon`
+  # Key is the link label showing to end users.
+  # Value before `||` delimeter is the target permalink.
+  # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
+  social:
+    GitHub: https://github.com/zylele || github
+    微博: http://weibo.com/lelewan || weibo
+    领英: https://www.linkedin.com/in/znyalor || linkedin
+
+  # Follow me on GitHub banner in right-top corner.
+  # Usage: `permalink || title`
+  # Value before `||` delimeter is the target permalink.
+  # Value after `||` delimeter is the title and aria-label name.
+  github_banner: https://github.com/zylele || Follow me on GitHub
+
+  # Blog rolls
+  links_title: 友链
+  links:
+    看猫的点这里: https://weibo.com/u/1930323872
+    自如-品质租房选自如: http://www.ziroom.com/
+
+  # Sidebar Avatar
+  avatar:
+    # in theme directory(source/images): /images/avatar.gif
+    # in site  directory(source/uploads): /uploads/avatar.gif
+    # You can also use other linking images.
+    url: /img/sys/avatar.jpg
+    # If true, the avatar would be dispalyed in circle.
+    rounded: true
+    # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
+    opacity: 1
+    # If true, the avatar would be rotated with the cursor.
+    rotated: false
+
+  sidebar:
+    # Scroll percent label in b2t button.
+    scrollpercent: true
+
+    # Enable sidebar on narrow view (only for Muse | Mist).
+    onmobile: true
+
+  # Post meta display settings
+  post_meta:
+    item_text: true
+    created_at: true
+    updated_at:
+      enabled: false
+      # If true, show updated date label only if `updated date` different from 'created date' (post edited in another day than was created).
+      # And if post will edited in same day as created, edited time will show in popup title under created time label.
+      # If false show anyway, but if post edited in same day, show only edited time.
+      another_day: true
+    categories: true
+
+  # Code Highlight theme
+  # Available values: normal | night | night eighties | night blue | night bright
+  # https://github.com/chriskempson/tomorrow-theme
+  highlight_theme: night eighties
+
+
+  # Show Views/Visitors of the website/page with busuanzi.
+  # Get more information on http://ibruce.info/2015/04/04/busuanzi/
+  busuanzi_count:
+    enable: true
+    total_visitors: true
+    total_visitors_icon: user
+    total_views: true
+    total_views_icon: eye
+    post_views: true
+    post_views_icon: eye
+
+  # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
+  baidu_push: true
+
+  # Local search
+  # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
+  local_search:
+    enable: true
+    trigger: auto
+
+  # Reward
+  reward_comment: 点击按钮，就能爱我
+  wechatpay: /img/sys/wechat-reward-image.jpg
+  alipay: /img/sys/alipay-reward-image.jpg
+
+  # Script Vendors.
+  # Set a CDN address for the vendor you want to customize.
+  # For example
+  #    jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js
+  # Be aware that you should use the same version as internal ones to avoid potential problems.
+  # Please use the https protocol of CDN files when you enable https on your site.
+  vendors:
+    # Internal path prefix. Please do not edit it.
+    _internal: lib
+
+    # Internal version: 2.1.3
+    # Example: 
+    # jquery: //cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js
+    # jquery: //cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js
+    jquery: //cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js
+
+    # Internal version: 2.1.5
+    # See: http://fancyapps.com/fancybox/
+    # Example: 
+    # fancybox: //cdn.jsdelivr.net/npm/fancybox@3.0.0/dist/js/jquery.fancybox.pack.js
+    # fancybox_css: //cdn.jsdelivr.net/npm/fancybox@3.0.0/dist/css/jquery.fancybox.min.css
+    # fancybox: //cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js
+    # fancybox_css: //cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css
+    fancybox: //cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.pack.js
+    fancybox_css: //cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.min.css
+
+    # Internal version: 1.0.6
+    # See: https://github.com/ftlabs/fastclick
+    # Example: 
+    # fastclick: //cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js
+    fastclick: //cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js
+
+    # Internal version: 1.9.7
+    # See: https://github.com/tuupola/jquery_lazyload
+    # lazyload: //cdn.jsdelivr.net/npm/jquery_lazyload@1.9.3/jquery.lazyload.min.js
+    lazyload: //cdn.jsdelivr.net/jquery.lazyload/1.9.3/jquery.lazyload.min.js
+
+    # Internal version: 1.2.1
+    # See: http://VelocityJS.org
+    # Example: 
+    # velocity: https://cdn.jsdelivr.net/npm/velocity-animate@1.2.1/velocity.min.js
+    # velocity: https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.1/velocity.min.js
+    velocity: //cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js
+
+    # Internal version: 1.2.1
+    # See: http://VelocityJS.org
+    # velocity_ui: //cdn.jsdelivr.net/npm/velocity-animate@1.2.1/velocity.ui.min.js
+    # velocity_ui: //cdnjs.cloudflare.com/ajax/libs/velocity/1.2.1/velocity.ui.min.js
+    velocity_ui: //cdn.jsdelivr.net/velocity/1.2.3/velocity.ui.min.js
+
+    # Internal version: 0.7.9
+    # See: https://faisalman.github.io/ua-parser-js/
+    # Example: 
+    # ua_parser: //cdn.jsdelivr.net/npm/ua-parser-js@0.7.17/src/ua-parser.min.js
+    # ua_parser: //cdnjs.cloudflare.com/ajax/libs/UAParser.js/0.7.9/ua-parser.min.js
+    ua_parser: //cdn.jsdelivr.net/ua-parser.js/0.7.10/ua-parser.min.js
+
+    # Internal version: 4.6.2
+    # See: http://fontawesome.io/
+    # Example: 
+    # fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css
+    # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css
+    fontawesome: //cdn.bootcss.com/font-awesome/4.6.2/css/font-awesome.min.css

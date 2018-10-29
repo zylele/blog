@@ -20,7 +20,7 @@ tags:
 
 顾名思义，Travis CI是一个持续集成(Continuous integration，简称CI)的工具。它可以在公共的Github仓库上免费使用。
 
-{% note info %} Travis CI 是目前新兴的开源持续集成构建项目，它与jenkins，GO的很明显的特别在于采用yaml格式，简洁清新独树一帜。目前大多数的github项目都已经移入到Travis CI的构建队列中，据说Travis CI每天运行超过4000次完整构建。 {% endnote %}
+> Travis CI 是目前新兴的开源持续集成构建项目，它与jenkins，GO的很明显的特别在于采用yaml格式，简洁清新独树一帜。目前大多数的github项目都已经移入到Travis CI的构建队列中，据说Travis CI每天运行超过4000次完整构建。
 
 ## 构建
 

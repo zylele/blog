@@ -10,7 +10,7 @@
   background: $black-deep;
   -webkit-transform: translateZ(0); // http://stackoverflow.com/questions/17079857/position-fixed-broken-in-chrome-with-flash-behind
 
-  a {
+  a, .exturl {
     color: $grey-dark;
     border-bottom-color: $black-light;
     &:hover { color: $gainsboro; }
@@ -30,6 +30,15 @@
   padding: 20px 10px;
   color: $grey-dark;
   text-align: center;
+}
+
+.site-overview-wrap {
+  overflow: hidden;
+}
+
+.site-overview {
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 @import "sidebar-toggle";

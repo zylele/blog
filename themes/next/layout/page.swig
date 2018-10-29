@@ -2,12 +2,14 @@
 {% import '_macro/sidebar.swig' as sidebar_template %}
 
   {% block title %}{#
-  #}{% set page_title_suffix = ' | ' + config.title %}{#
+  #}{% set page_title_suffix = ' | ' + title %}{#
 
   #}{% if page.type === "categories" and not page.title %}{#
     #}{{ __('title.category') + page_title_suffix }}{#
   #}{% elif page.type === "tags" and not page.title %}{#
     #}{{ __('title.tag') + page_title_suffix }}{#
+  #}{% elif page.type === "schedule" and not page.title %}{#
+    #}{{ __('title.schedule') + page_title_suffix }}{#
   #}{% else %}{#
     #}{{ page.title + page_title_suffix }}{#
   #}{% endif %}{#
@@ -31,21 +33,35 @@
         {% if page.type === "tags" %}
           <div class="tag-cloud">
             <div class="tag-cloud-title">
-                {{ _p('counter.tag_cloud', site.tags.length) }}
+                {% set visibleTags = 0 %}
+                {% for tag in site.tags %}
+                  {% if tag.length %}
+                    {% set visibleTags += 1 %}
+                  {% endif %}
+                {% endfor %}
+                {{ _p('counter.tag_cloud', visibleTags) }}
             </div>
             <div class="tag-cloud-tags">
-              {{ tagcloud({min_font: 12, max_font: 30, amount: 200, color: true, start_color: '#ccc', end_color: '#111'}) }}
+              {{ tagcloud({min_font: 12, max_font: 30, amount: 300, color: true, start_color: '#ccc', end_color: '#111'}) }}
             </div>
           </div>
         {% elif page.type === 'categories' %}
           <div class="category-all-page">
             <div class="category-all-title">
-                {{ _p('counter.categories', site.categories.length) }}
+                {% set visibleCategories = 0 %}
+                {% for cat in site.categories %}
+                  {% if cat.length %}
+                    {% set visibleCategories += 1 %}
+                  {% endif %}
+                {% endfor %}
+                {{ _p('counter.categories', visibleCategories) }}
             </div>
             <div class="category-all">
               {{ list_categories() }}
             </div>
           </div>
+        {% elif page.type === 'schedule' %}
+          {% include 'schedule.swig' %}
         {% else %}
           {{ page.content }}
         {% endif %}
@@ -54,6 +70,7 @@
       {### END PAGE BODY ###}
       {#####################}
     </div>
+    {% include '_partials/breadcrumb.swig' %}
     {######################}
     {### END PAGE BLOCK ###}
     {######################}
@@ -63,4 +80,8 @@
 
 {% block sidebar %}
   {{ sidebar_template.render(false) }}
+{% endblock %}
+
+{% block script_extra %}
+  {% include '_scripts/pages/post-details.swig' %}
 {% endblock %}
