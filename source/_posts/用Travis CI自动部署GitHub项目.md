@@ -6,7 +6,7 @@ tags:
   - CI
 ---
 
-免费CI服务，能怪我么，好吧，确实是我的错，我太穷了。
+介绍一套免费持续构建系统解决方案。
 
 ![Poor Guy](/img/用Travis CI自动部署GitHub项目/day-day-poor.jpg)
 
