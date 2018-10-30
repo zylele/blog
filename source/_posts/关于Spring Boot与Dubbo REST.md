@@ -4,7 +4,6 @@ date: 2017-07-08 18:44:05
 tags: 
   - Spring Boot
   - Dubbo
-  - REST
 ---
 
 ## 关于Spring Boot

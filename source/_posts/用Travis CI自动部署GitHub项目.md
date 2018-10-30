@@ -2,11 +2,10 @@
 title: 用Travis CI自动部署GitHub项目
 date: 2017-09-10 23:19:05
 tags: 
-  - hexo
-  - CI
+  - 持续集成
 ---
 
-介绍一套免费持续构建系统解决方案。
+介绍一套免费持续集成构建部署解决方案。
 
 ![Poor Guy](/img/用Travis CI自动部署GitHub项目/day-day-poor.jpg)
 

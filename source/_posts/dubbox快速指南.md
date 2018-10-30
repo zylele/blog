@@ -1,8 +1,8 @@
 ---
-title: dubbox快速指南
+title: Dubbox快速指南
 date: 2017-03-07 21:44:05
 tags: 
-  - dubbox
+  - Dubbox
 ---
 
 该demo的github地址：[dubbox-demo](https://github.com/zylele/dubbox-demo)

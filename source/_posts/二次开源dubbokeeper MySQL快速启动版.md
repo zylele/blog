@@ -2,7 +2,7 @@
 title: 二次开源dubbokeeper MySQL快速启动版
 date: 2017-04-01 21:44:05
 tags: 
-  - dubbo
+  - Dubbo
 ---
 
 github地址：[dubbokeeper-mqs](https://github.com/zylele/dubbokeeper-mqs)
