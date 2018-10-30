@@ -4,8 +4,8 @@
 
 # Site
 title: 乐章
-subtitle: --------------------------------
-description: 放轻松
+subtitle: 鸡鸣枕上，夜气方回
+description: stay young,stay simple
 keywords:
 author: Lele
 language: zh-CN
@@ -165,6 +165,7 @@ theme_config:
   links_title: 友链
   links:
     看猫的点这里: https://weibo.com/u/1930323872
+    品质租房选自如: http://www.ziroom.com/
 
   # Sidebar Avatar
   avatar:
