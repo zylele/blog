@@ -229,6 +229,10 @@ theme_config:
   # For install 3.x: https://github.com/theme-next/theme-next-fancybox3
   fancybox: true
 
+  # Added switch option for separated repo in 6.0.0.
+  # Dependencies: https://github.com/theme-next/theme-next-fastclick
+  fastclick: true
+
   # Reward
   reward_comment: 点击按钮，就能爱我
   wechatpay: /img/sys/wechat-reward-image.jpg
