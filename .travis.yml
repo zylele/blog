@@ -1,20 +1,51 @@
-
+# Refrecnes:
+# http://www.think-diff.me/2016/05/28/travis-ci-deploy-blog/
+# https://zespia.tw/blog/2015/01/21/continuous-deployment-to-github-with-travis/
+# https://docs.travis-ci.com/user/languages/javascript-with-nodejs
+# https://github.com/iissnan/theme-next-docs/blob/master/.travis.yml
+# http://changyuheng.me/2015/when-hexo-static-site-meets-github-pages-and-travis-ci/
 
 sudo: false
 language: node_js
-node_js:
-  - stable # use nodejs v10 LTS
+node_js: stable
 cache: npm
 branches:
   only:
     - master # build master branch only
+
+before_install:
+  - export TZ='Asia/Shanghai' # 更改时区
+
+install:
+  - npm install
+
 script:
-  - hexo generate # generate static files
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GH_TOKEN
-  keep-history: true
-  on:
-    branch: master
-  local-dir: public
+  - hexo clean  #清除
+  - hexo g && gulp  #生成
+
+after_script:
+  - cd public
+  - git init
+
+  - git config --global user.name 'zylele'
+  - git config --global user.email 657345933@qq.com
+
+  - git add .
+  - git commit -m "Travis CI Auto Builder at `date +"%Y-%m-%d %H:%M"`"
+  - git push --force --quiet "https://${GH_TOKEN}@${GIT_PAGE_REF}" master:master
+
+branches:
+  only:
+    - master
+env:
+ global:
+   - GIT_PAGE_REF: github.com:zylele/zylele.github.io.git
+
+# configure notifications (email, IRC, campfire etc)
+# please update this section to your needs!
+# https://docs.travis-ci.com/user/notifications/
+notifications:
+  email:
+    - 657345933@qq.com
+  on_success: change
+  on_failure: always

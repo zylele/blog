@@ -81,6 +81,8 @@ deploy:
   type: git
   repo: 
     github: git@github.com:zylele/zylele.github.io.git,master
+    coding: git@git.dev.tencent.com:lle/lle.git,master
+  message: Travis CI Auto Builder :$(date '+%Y-%m-%d %H:%M:%S' -d '+8 hour')
 
 
 # ---------------------------------------------------------------
