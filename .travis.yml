@@ -26,6 +26,9 @@ before_install:
 # 安装依赖
 install:
 - npm install
+
+before_script:
+  - npm install -g gulp
 # 部署的命令
 script:
 - hexo clean
