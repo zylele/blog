@@ -39,7 +39,7 @@ branches:
     - master
 env:
  global:
-   - GIT_PAGE_REF: github.com:zylele/zylele.github.io.git
+   - GIT_PAGE_REF: github.com/zylele/zylele.github.io.git
 
 # configure notifications (email, IRC, campfire etc)
 # please update this section to your needs!
