@@ -81,7 +81,6 @@ deploy:
   type: git
   repo: 
     github: git@github.com:zylele/zylele.github.io.git,master
-    coding: git@git.dev.tencent.com:lle/lle.git,master
 
 
 # ---------------------------------------------------------------
