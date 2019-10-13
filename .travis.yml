@@ -20,8 +20,8 @@ install:
   - npm install
 
 script:
-  - hexo clean  #清除
-  - hexo g && gulp  #生成
+  - hexo clean
+  - hexo g
 
 after_script:
   - cd public
