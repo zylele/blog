@@ -229,20 +229,21 @@ theme_config:
   motion:
     enable: false
 
-  # Fancybox. There is support for old version 2 and new version 3.
-  # Please, choose only any one variant, do not need to install both.
-  # For install 2.x: https://github.com/theme-next/theme-next-fancybox
-  # For install 3.x: https://github.com/theme-next/theme-next-fancybox3
-  fancybox: true
-
   # Added switch option for separated repo in 6.0.0.
   # Dependencies: https://github.com/theme-next/theme-next-fastclick
   fastclick: true
 
-  # Reward
-  reward_comment: 点击按钮，就能爱我
-  wechatpay: /img/sys/wechat-reward-image.jpg
-  alipay: /img/sys/alipay-reward-image.jpg
+  # Reward (Donate)
+  reward_settings:
+    # If true, reward would be displayed in every article by default.
+    # You can show or hide reward in a specific article throuth `reward: true | false` in Front-matter.
+    enable: true
+    animation: false
+    comment: 点击按钮，就能爱我
+
+  reward:
+    wechatpay: /img/sys/wechat-reward-image.jpg
+    alipay: /img/sys/alipay-reward-image.jpg
 
   # Script Vendors.
   # Set a CDN address for the vendor you want to customize.
