@@ -7,8 +7,6 @@ tags:
 
 该demo的github地址：[dubbox-demo](https://github.com/zylele/dubbox-demo)
 
-<!-- more -->
-
 # 准备
 
 ## 依赖
@@ -24,7 +22,7 @@ tags:
 </mirror>
 ```
 
-下载dubbox源码并且编译：
+下载dubbox源码并且编译：<!-- more -->
 
 > git clone git@github.com:dangdangdotcom/dubbox.git
 执行maven命令`mvn clean install -Dmaven.test.skip`

@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next741
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -174,11 +174,18 @@ theme_config:
     url: /img/sys/avatar.jpg
 
   sidebar:
-    # Scroll percent label in b2t button.
-    scrollpercent: true
+    # Sidebar Position.
+    position: right
 
     # Enable sidebar on narrow view (only for Muse | Mist).
     onmobile: true
+
+  back2top:
+    enable: true
+    # Back to top in sidebar.
+    sidebar: true
+    # Scroll percent label in b2t button.
+    scrollpercent: true
 
   # Post meta display settings
   post_meta:

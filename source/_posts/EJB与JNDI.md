@@ -6,14 +6,15 @@ tags:
 ---
 
 <blockquote class="blockquote-center">应用驱动学习</blockquote>
-
-（摊手）<!-- more -->
+（摊手）
 
 第一次接触使用EJB构建项目部署。
 
 `EJB`(Enterprise JavaBean)是sun的JavaEE服务器端组件模型和“`最佳实践`（讲真，即使EJB3.0已经借鉴了Spring等优点，在我看来还是臃肿繁琐），设计目标与核心应用是部署分布式应用程序。
 
 > 凭借java跨平台的优势，用EJB技术部署的分布式系统可以不限于特定的平台。EJB是J2EE的一部分，定义了一个用于开发基于组件的企业多重应用程序的标准。其特点包括网络服务支持和核心开发工具(SDK)。 在J2EE里，Enterprise Java Beans(EJB)称为Java企业Bean，是Java的核心代码，分别是会话Bean（Session Bean），实体Bean（Entity Bean）和消息驱动Bean（MessageDriven Bean）。
+
+<!-- more -->
 
 作为Java WEB项目构建，可以简单这么理解其工作流程：
 

@@ -28,9 +28,7 @@ post:
   read_more: Đọc tiếp
   untitled: Không có tiêu đề
   sticky: Đính
-  toc_empty: Bài viết này không có mục lục
   views: Views
-  comments_count: Comments
   related_posts: Related Posts
   copy_button: Copy
   copy_success: Copied
@@ -85,11 +83,10 @@ reward:
   wechatpay: WeChat Pay
   alipay: Alipay
   bitcoin: Bitcoin
-gitmentbutton: Hiển thị bình luận từ Gitment
 accessibility:
   nav_toggle: Toggle navigation bar
-  prev_page: Previous page
-  next_page: Next page
+  prev_page: Trang trước
+  next_page: Trang sau
 symbols_count_time:
   count: Symbols count in article
   count_total: Symbols count total

@@ -12,6 +12,7 @@ First of all, thanks for taking your time to contribute and help make our projec
 
   * [Before Submitting An Issue](#before-submitting-an-issue)
   * [Reporting Bugs](#reporting-bugs)
+    * [Reporting Security Bugs](#reporting-security-bugs)
   * [Suggesting Enhancements](#suggesting-enhancements)
   * [Submitting a Pull Request](#submitting-a-pull-request)
   * [Creating Releases](#creating-releases)
@@ -24,11 +25,13 @@ First of all, thanks for taking your time to contribute and help make our projec
   * [Commit Messages Rules](#commit-messages-rules)
 
 <a name="how-can-i-contribute"></a>
+
 ## How Can I Contribute?
 
 Main Theme-Next repository was rebased from [iissnan's](https://github.com/iissnan/hexo-theme-next) profile to [Theme-Next](https://github.com/theme-next) organization on GitHub. Most libraries under the `next/source/lib` directory was moved out to [external repos](https://github.com/theme-next) under NexT organization. Version 5 works fine at most cases, but for frequent users, you maybe need to [upgrade version 5 to 6](https://github.com/theme-next/hexo-theme-next/blob/master/docs/UPDATE-FROM-5.1.X.md) to get features and supports in new [Theme-Next](https://github.com/theme-next/hexo-theme-next) repository.
 
 <a name="before-submitting-an-issue"></a>
+
 ### Before Submitting An Issue
 
 If you just have a question, you'll get faster results by checking the FAQs for a list of common questions and problems (Work in progress) or the [«NexT» Documentation Site](https://theme-next.org/docs/) (Work in progress).
@@ -40,6 +43,7 @@ If you find a bug in the source code, most importantly, please check carefully i
 [submit a Pull Request](#submitting-a-pull-request) with a fix.
 
 <a name="reporting-bugs"></a>
+
 ### Reporting Bugs
 
 Before creating bug reports, please check [this list](#before-submitting-an-issue) as you might find out that you don't need to create one. After you've determined the repository your bug is related to, create an issue on that repository and provide the information as many details as possible by filling in [the required template](ISSUE_TEMPLATE.md).
@@ -58,6 +62,16 @@ Following these guidelines helps maintainers and the community understand your r
 * Describe the behavior you observed after following the steps and point out what exactly is the problem with that behavior.
 * Explain which behavior you expected to see instead and why.
 
+<a name="reporting-security-bugs"></a>
+
+#### Reporting Security Bugs
+
+If you find a security issue, please act responsibly and report it not in the public issue tracker, but directly to us, so we can fix it before it can be exploited. Please send the related information to security@theme-next.com (desirable with using PGP for e-mail encryption).
+
+We will gladly special thanks to anyone who reports a vulnerability so that we can fix it. If you want to remain anonymous or pseudonymous instead, please let us know that; we will gladly respect your wishes.
+
+<a name="suggesting-enhancements"></a>
+
 ### Suggesting Enhancements
 
 Before creating enhancement suggestions, please check [this list](#before-submitting-an-issue) as you might find out that you don't need to create one. After you've determined the repository your enhancement suggestion is related to, create an issue on that repository and provide the information as many details as possible by filling in [the required template](ISSUE_TEMPLATE.md).
@@ -68,22 +82,24 @@ Following these guidelines helps maintainers and the community understand your s
 * Describe the current behavior and explain which behavior you expected to see instead and Explain why this enhancement would be useful to most users.
 * Provide specific examples to demonstrate the suggestion. Include links to files (screenshots or GIFs) or live demo.
 
+<a name="submitting-a-pull-request"></a>
+
 ### Submitting a Pull Request
 
 Before creating a Pull Request (PR), please check [this list](#before-submitting-an-issue) as you might find out that you don't need to create one. After you've determined the repository your pull request is related to, create a pull request on that repository. The detailed document of creating a pull request can be found [here](https://help.github.com/articles/creating-a-pull-request/).
 
 1. On GitHub, navigate to the original page of the [hexo-theme-next](https://github.com/theme-next/hexo-theme-next). In the top-right corner of the page, click **Fork**.
 2. Under the repository name in your forked repository, click **Clone or download**. In the `Clone with SSH` section, copy the clone URL for the repository. Open Git Bash, and change the current working directory to the location where you want the cloned directory to be made. Type `git clone`, and then paste the URL you copied. Press **Enter**. Your local clone will be created.
-    ```bash
+    ```sh
     $ git clone git@github.com:username/hexo-theme-next.git
     ```
 3. Navigate into your new cloned repository. Switch branches to the compare branch of the pull request where the original changes were made.
-    ```bash
+    ```sh
     $ cd hexo-theme-next
     $ git checkout -b patchname
     ```
 4. After you commit your changes to the head branch of the pull request you can push your changes up to the original pull request directly.
-    ```bash
+    ```sh
     $ git add .
     $ git commit -m "add commit messamge"
     $ git push origin patchname
@@ -97,6 +113,8 @@ Following these guidelines helps maintainers and the community understand your p
 * Fill in [the required template](PULL_REQUEST_TEMPLATE.md) as many details as possible.
 * All features or bug fixes must be tested in all schemes. And provide specific examples to demonstrate the pull request. Include links to files (screenshots or GIFs) or live demo.
 
+<a name="creating-releases"></a>
+
 ### Creating Releases
 
 Releases are a great way to ship projects on GitHub to your users.
@@ -106,74 +124,87 @@ Releases are a great way to ship projects on GitHub to your users.
 3. Select a branch that contains the project you want to release. Usually, you'll want to release against your `master` branch, unless you're releasing beta software.
 4. Type a title and description that describes your release.
     - Use the version as the title.
-    - The types of changes include **Breaking Changes**, **Updates**, **Features**, and **Bugfixes**. In the section of Breaking Changes, use multiple secondary headings, and use item list in other sections.
+    - The types of changes include **Breaking Changes**, **Updates**, **Features**, and **Bug Fixes**. In the section of Breaking Changes, use multiple secondary headings, and use item list in other sections.
     - Use the passive tense and subject-less sentences.
     - All changes must be documented in release notes. If commits happen without pull request (minimal changes), just add this commit ID into release notes. If commits happen within pull request alreay, just add the related pull request ID including all possible commits.
 5. If you'd like to include binary files along with your release, such as compiled programs, drag and drop or select files manually in the binaries box.
 6. If the release is unstable, select **This is a pre-release** to notify users that it's not ready for production. If you're ready to publicize your release, click **Publish release**. Otherwise, click **Save draft** to work on it later.
 
+<a name="guides"></a>
+
 ## Guides
+
+<a name="coding-rules"></a>
 
 ### Coding Rules
 
 This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md) to keep open and inclusive. By participating, you are expected to uphold this code.
 
+<a name="coding-standards"></a>
+
 ### Coding Standards
 
 To be continued.
 
+<a name="labels-rules"></a>
+
 ### Labels Rules
 
-We use "labels" in the issue tracker to help classify pull requests and issues. Using labels enables maintainers and users to quickly find issues they should look into, either because they experience them, or because it meets their area of expertise.
+We use "labels" in the issue tracker to help classify Pull requests and Issues. Using labels enables maintainers and users to quickly find issues they should look into, either because they experience them, or because it meets their area of expertise.
 
 If you are unsure what a label is about or which labels you should apply to a PR or issue, look no further!
 
 Issues related: `types`+`contents`+`results`
 
 - By types
-    - `Irrelevant`: An irrelevant issue for Next
-    - `Duplicate`: An issue which had been mentioned
     - `Bug`: A detected bug that needs to be confirmed
+    - `Improvement`: An issue that needs improvement
+    - `Feature Request`: An issue that wants a new feature
     - `Discussion`: An issue that needs to be discussed
     - `Question`: An issue about questions
-    - `Feature-Request`: An issue that wants a new feature
-    - `Backlog`: An issue that is to be completed and later compensated
+    - `Meta`: Denoting a change of usage conditions
+    - `Polls`: An issue that initiated a poll
 - By contents
     - `Roadmap`: An issue about future development
-    - `Hexo`: An issue related to Hexo
-    - `Scheme [1] - Mist`: An issue related to Scheme Mist
-    - `Scheme [2] - Muse`: An issue related to Scheme Muse
-    - `Scheme [3] - Pisces`: An issue related to Scheme Pisces
-    - `Scheme [4] - Gemini`: An issue related to Scheme Gemini
-    - `3rd party service`: An issue related to 3rd party service
+    - `Hexo`: An issue related to Hexo or Hexo plugins
+    - `3rd Party Plugin`: An issue related to 3rd party plugins & service
     - `Docs`: Need to add instruction document
     - `Configurations`: An issue related to configurations
     - `CSS`: An issue related to CSS
+    - `Fonts`: An issue related to fonts
+    - `PJAX`: An issue related to PJAX
     - `Custom`: An issue related to custom things
-    - `Optimization`: An issue that needs to be optimized
+    - `Support`: An issue labeled as support requests
 - By results
-    - `Wontfix`: An issue that will not to be fixed
+    - `Duplicate`: An issue which had been mentioned
+    - `Irrelevant`: An irrelevant issue for Next
+    - `Expected Behavior`: An issue that corresponds to expected behavior
     - `Need More Info`: Need more information for solving the issue
-    - `Need Confirm`: Need confirmation from the developers or user about the bug or solution
-    - `Can't Reproduce`: An issue that can’t be reproduced
+    - `Need Verify`: Need confirmation from the developers or user about the bug or solution
+    - `Can't Reproduce`: An issue that cannot be reproduced
     - `Verified`: An issue that has been verified
-    - `Help wanted`: An issue that needs help
-    - `Wait for Answer`: An issue that needs to be answered by the developers or user
-    - `Resolved Maybe`: An issue that has been resolved maybe
+    - `Help Wanted`: An issue that needs help
+    - `Probably Solved`: An issue that has been resolved maybe
     - `Solved`: An issue that has been solved
     - `Stale`: This issue has been automatically marked as stale because lack of recent activity
+    - `Locked`: This issue has been automatically locked since there has not been any recent activity after it was closed
 
 Pull requests related:
 
-- `Breaking Change`: A Pull requests that makes breaking change
-- `Bugfix`: A Pull requests that fixes the related bug
-- `Docs`: A Pull requests that Instruction document has been added
-- `Feature`: A Pull requests that provides a new feature
-- `Configurations`: A Pull requests related to configurations
-- `Optimization`: A Pull requests that optimizates the Next
-- `i18n`: A Pull requests that makes new languages translation
-- `Performance`: A Pull requests that improves the performance
-- `Discussion`: A Pull requests that needs to be discussed
+- `Breaking Change`: A pull request that makes breaking change
+- `3rd Party Plugin`: A pull request that makes update for 3rd party plugins & service
+- `Bug Fix`: A pull request that fixes the related bug
+- `Docs`: A pull request that Instruction document has been added
+- `New Feature`: A pull request that provides a new feature
+- `Feature`: A pull request that provides an option or addition to existing feature
+- `Improvement`: A pull request that improves NexT
+- `i18n`: A pull request that makes new languages translation
+- `Performance`: A pull request that improves the performance
+- `Discussion`: A pull request that needs to be discussed
+- `Work in Progress`: A pull request that is still working in progress
+- `Skip Release`: A pull request that should be excluded from release note
+
+<a name="commit-messages-rules"></a>
 
 ### Commit Messages Rules
 
