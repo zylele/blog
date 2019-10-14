@@ -25,14 +25,13 @@ before_install:
 
 # 安装依赖
 install:
-- npm install
+  - npm install
 
-before_script:
-  - npm install -g gulp
 # 部署的命令
 script:
-- hexo clean
-- hexo g -d
+  - hexo clean & hexo g
+  - gulp
+  - hexo deploy
 
 # configure notifications (email, IRC, campfire etc)
 # please update this section to your needs!
