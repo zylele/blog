@@ -35,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
@@ -218,6 +218,10 @@ theme_config:
 
   # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
   baidu_push: true
+
+  # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
+  # For more information: https://fancyapps.com/fancybox
+  fancybox: false
 
   # Local search
   # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
