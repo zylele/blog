@@ -7,7 +7,7 @@ tags:
 
 介绍一套免费持续集成构建部署解决方案。
 
-![Poor Guy](/img/用Travis CI自动部署GitHub项目/day-day-poor.jpg)
+![Poor Guy](用Travis CI自动部署GitHub项目/day-day-poor.jpg)
 
 本文以部署基于Node.js的静态博客框架hexo为例
 
@@ -33,7 +33,7 @@ tags:
 
 然后可以看到当前账号的所有代码仓库，接下来将博客项目的状态设置为启用。
 
-![turn on travis](/img/用Travis CI自动部署GitHub项目/account.png)
+![turn on travis](用Travis CI自动部署GitHub项目/account.png)
 
 ### 创建SSH key
 
@@ -47,7 +47,7 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 得到`id_rsa.pub`和`id_rsa`，然后将有`pub`后缀的配置到Deploy key。
 
-![set deploy key](/img/用Travis CI自动部署GitHub项目/deploy-key.png)
+![set deploy key](用Travis CI自动部署GitHub项目/deploy-key.png)
 
 记得要将`Allow write access`的选项选上，这样Travis CI才能获得push代码的权限。
 
@@ -93,15 +93,15 @@ Host github.com
 
 现在进入travis CI设置页面
 
-![travis setting](/img/用Travis CI自动部署GitHub项目/setting.png)
+![travis setting](用Travis CI自动部署GitHub项目/setting.png)
 
 可以看到刚刚travis命令行生成的解密key
 
-![environment variables](/img/用Travis CI自动部署GitHub项目/environment-variables.png)
+![environment variables](用Travis CI自动部署GitHub项目/environment-variables.png)
 
 顺便把上面的开关打开
 
-![trun on travis setting](/img/用Travis CI自动部署GitHub项目/turn-on-build.png)
+![trun on travis setting](用Travis CI自动部署GitHub项目/turn-on-build.png)
 
 这样，当向项目push代码的时候travis CI就会根据`.travis.yml`的内容去部署我们的项目了。
 
@@ -155,7 +155,7 @@ script:
 cache:
   directories:
   - node_modules
-``` 
+```
 
 ## 最后
 

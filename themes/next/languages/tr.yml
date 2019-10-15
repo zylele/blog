@@ -28,9 +28,7 @@ post:
   read_more: Daha fazla oku
   untitled: Başlıksız
   sticky: Sabit
-  toc_empty: Bu gönderinin içindekiler kısmı yok
   views: Görünümler
-  comments_count: Yorumlar
   related_posts: İlgili Gönderiler
   copy_button: Kopyala
   copy_success: Kopyalandı
@@ -85,7 +83,6 @@ reward:
   wechatpay: WeChat Pay
   alipay: Alipay
   bitcoin: Bitcoin
-gitmentbutton: Gitment'ın yorumlarını göster
 accessibility:
   nav_toggle: Gezinti çubuğunu değiştir
   prev_page: Önceki sayfa

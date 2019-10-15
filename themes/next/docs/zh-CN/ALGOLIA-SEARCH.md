@@ -43,25 +43,6 @@ NexT 内部提供 Algolia 的搜索功能，要使用此功能请确保所使用
 
     ![](http://theme-next.iissnan.com/uploads/algolia/algolia-step-4.png)
 
-1. 切换到 NexT 目录，并安装 algolia-instant-search 到 `source/lib` 目录。
-
-    ```
-    $ cd themes/next
-    $ git clone https://github.com/theme-next/theme-next-algolia-instant-search source/lib/algolia-instant-search
-    ```
-
-    如果你想直接使用 CDN 设置 Algolia Search，则需要在`主题配置文件`中添加 vendors 字段：
-
-    ```yml
-    vendors:
-      ...
-      # Internal version: 1
-      # https://www.algolia.com
-      algolia_instant_js: https://cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch.js
-      algolia_instant_css: https://cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch.min.css
-      ...
-    ```
-
 1. 更改`主题配置文件`，找到 Algolia Search 配置部分，将 `enable` 改为 `true`。同时你需要**关闭**其他搜索插件，如 Local Search 等。你也可以根据需要调整 `labels` 中的文本：
 
     ```yml
@@ -76,9 +57,23 @@ NexT 内部提供 Algolia 的搜索功能，要使用此功能请确保所使用
         hits_stats: "${hits} results found in ${time} ms"
     ```
 
+1. 如果你需要通过 CDN 使用其它版本的 algolia-instant-search ，请根据以下步骤操作。
+
+    你需要在`主题配置文件`中的 vendors 字段进行设置：
+
+    ```yml
+    vendors:
+      ...
+      # Internal version: 1
+      # https://www.algolia.com
+      algolia_instant_js: https://cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch.js
+      algolia_instant_css: https://cdn.jsdelivr.net/npm/instantsearch.js@2.4.1/dist/instantsearch.min.css
+      ...
+    ```
+
 <h2 align="center">已知的问题</h2>
 
 1. 考虑到 Algolia 免费账户的限制，目前 [Hexo-Algolia](https://github.com/oncletom/hexo-algolia) 插件最新版本去掉了正文索引功能。
 1. [Hexo-Algoliasearch](https://github.com/LouisBarranqueiro/hexo-algoliasearch) 插件提供了正文索引功能，不过需要替换 NEXT 主题中的关键字。对于免费账户，`Record Too Big` 的问题同样存在。
-    - 替换 `source/js/src/algolia-search.js` 中所有的 `applicationID` 为 `appId`
+    - 替换 `source/js/algolia-search.js` 中所有的 `applicationID` 为 `appId`
     - 替换 `layout/_partials/head/head.swig` 中所有的 `applicationID` 为 `appId`

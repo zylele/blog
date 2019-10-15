@@ -35,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next741
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -174,11 +174,18 @@ theme_config:
     url: /img/sys/avatar.jpg
 
   sidebar:
-    # Scroll percent label in b2t button.
-    scrollpercent: true
+    # Sidebar Position.
+    position: right
 
     # Enable sidebar on narrow view (only for Muse | Mist).
     onmobile: true
+
+  back2top:
+    enable: true
+    # Back to top in sidebar.
+    sidebar: false
+    # Scroll percent label in b2t button.
+    scrollpercent: true
 
   # Post meta display settings
   post_meta:
@@ -222,20 +229,21 @@ theme_config:
   motion:
     enable: false
 
-  # Fancybox. There is support for old version 2 and new version 3.
-  # Please, choose only any one variant, do not need to install both.
-  # For install 2.x: https://github.com/theme-next/theme-next-fancybox
-  # For install 3.x: https://github.com/theme-next/theme-next-fancybox3
-  fancybox: true
-
   # Added switch option for separated repo in 6.0.0.
   # Dependencies: https://github.com/theme-next/theme-next-fastclick
   fastclick: true
 
-  # Reward
-  reward_comment: 点击按钮，就能爱我
-  wechatpay: /img/sys/wechat-reward-image.jpg
-  alipay: /img/sys/alipay-reward-image.jpg
+  # Reward (Donate)
+  reward_settings:
+    # If true, reward would be displayed in every article by default.
+    # You can show or hide reward in a specific article throuth `reward: true | false` in Front-matter.
+    enable: true
+    animation: false
+    comment: 点击按钮，就能爱我
+
+  reward:
+    wechatpay: /img/sys/wechat-reward-image.jpg
+    alipay: /img/sys/alipay-reward-image.jpg
 
   # Script Vendors.
   # Set a CDN address for the vendor you want to customize.

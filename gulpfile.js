@@ -40,18 +40,6 @@ gulp.task('minify-js', function (done) {
     done();
 });
 
-// 压缩 public/images 目录内图片(Version<3)
-// gulp.task('minify-images', function () {
-//     gulp.src('./public/images/**/*.*')
-//         .pipe(imagemin({
-//             optimizationLevel: 5, //类型：Number  默认：3  取值范围：0-7（优化等级）
-//             progressive: true, //类型：Boolean 默认：false 无损压缩jpg图片
-//             interlaced: false, //类型：Boolean 默认：false 隔行扫描gif进行渲染
-//             multipass: false, //类型：Boolean 默认：false 多次优化svg直到完全优化
-//         }))
-//         .pipe(gulp.dest('./public/images'));
-// });
-
 // 压缩 public/images 目录内图片(Version>3)
 gulp.task('minify-images', function (done) {
     gulp.src('./public/images/**/*.*')

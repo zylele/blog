@@ -6,11 +6,13 @@ tags:
   - 事务
 ---
 
-后台数据库读写分离，不光是要配置多个数据源，还得能灵活动态的切换数据源，很好，目前都没问题，然而<!-- more -->如果你的应用是使用SpringBoot：
+后台数据库读写分离，不光是要配置多个数据源，还得能灵活动态的切换数据源，很好，目前都没问题，然而如果你的应用是使用SpringBoot：
 
 > SpringBoot使我们更容易去创建基于Spring的独立和产品级的可以“即时运行”的应用和服务。支持约定大于配置，目的是尽可能快地构建和运行Spring应用。
 
 来初始化构建你的工程，引入多数据源将可能会导致事务无效的问题`本文重点`。因为传统通过xml手动配置更精准，出错也容易查找原因，然而交给SpringBoot自动帮你完成大部分的配置，绝逼满满的都是坑(我的直觉
+
+<!-- more -->
 
 好，以下正题。
 
@@ -18,15 +20,15 @@ tags:
 
 *   简单的架构是：单个数据源绑定给sessionFactory，再在Dao层操作
 
-![](/img/Spring Boot多数据源切换与事务控制/datasource.jpg)
+![](Spring Boot多数据源切换与事务控制/datasource.jpg)
 
 *   若多个数据源的话
 
-![](/img/Spring Boot多数据源切换与事务控制/datasources.jpg)
+![](Spring Boot多数据源切换与事务控制/datasources.jpg)
 
 *   sessionFactory都写死在了Dao层，若我再添加个数据源的话，则又得添加一个sessionFactory，这样并不能扩展嘛，所以
 
-![](/img/Spring Boot多数据源切换与事务控制/dynamic-datasources.jpg)
+![](Spring Boot多数据源切换与事务控制/dynamic-datasources.jpg)
 
 这样才是坠吼的！
 
