@@ -20,15 +20,15 @@ tags:
 
 *   简单的架构是：单个数据源绑定给sessionFactory，再在Dao层操作
 
-![](/img/Spring-Boot多数据源切换与事务控制/datasource.jpg)
+![](/img/sprinboot-datasources/datasource.jpg)
 
 *   若多个数据源的话
 
-![](/img/Spring-Boot多数据源切换与事务控制/datasources.jpg)
+![](/img/sprinboot-datasources/datasources.jpg)
 
 *   sessionFactory都写死在了Dao层，若我再添加个数据源的话，则又得添加一个sessionFactory，这样并不能扩展嘛，所以
 
-![](/img/Spring-Boot多数据源切换与事务控制/dynamic-datasources.jpg)
+![](/img/sprinboot-datasources/dynamic-datasources.jpg)
 
 这样才是坠吼的！
 

@@ -29,7 +29,8 @@ install:
 
 # 部署的命令
 script:
-  - hexo clean & hexo g
+  - hexo clean
+  - hexo g
   - gulp
   - hexo deploy
 

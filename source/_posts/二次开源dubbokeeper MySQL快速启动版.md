@@ -42,14 +42,14 @@ dubbokeeper-mqs集成监控与展示，节省服务器资源，提供一键编�
 
 ---
 
-![](/img/二次开源dubbokeeper-MySQL快速启动版/dubbokeeper-service.png)
+![](/img/dubbokeeper-mqs/dubbokeeper-service.png)
 
 动态配置
 
-![](/img/二次开源dubbokeeper-MySQL快速启动版/dubbokeeper-dpc.png)
+![](/img/dubbokeeper-mqs/dubbokeeper-dpc.png)
 
 依赖关系
 
-![](/img/二次开源dubbokeeper-MySQL快速启动版/dubbokeeper-monitor.png)
+![](/img/dubbokeeper-mqs/dubbokeeper-monitor.png)
 
 统计信息
