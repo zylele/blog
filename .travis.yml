@@ -37,7 +37,7 @@ script:
 # configure notifications (email, IRC, campfire etc)
 # please update this section to your needs!
 # https://docs.travis-ci.com/user/notifications/
-notifications:
+notifications--org:
   email:
     - 657345933@qq.com
     - znyalor@gmail.com
