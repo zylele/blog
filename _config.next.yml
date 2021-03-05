@@ -1,0 +1,157 @@
+
+# ---------------------------------------------------------------
+# theme_config Settings
+# ---------------------------------------------------------------
+
+feed:
+  enable: true
+  # Generate both atom and rss2 feeds
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss2.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
+
+# ---------------------------------------------------------------
+# Site Information Settings
+# See: https://theme-next.org/docs/getting-started/
+# ---------------------------------------------------------------
+
+footer:
+  # Specify the date when the site was setup. If not defined, current year will be used.
+  since: 2015
+
+
+# ---------------------------------------------------------------
+# Scheme Settings
+# ---------------------------------------------------------------
+
+# Schemes
+scheme: Muse
+#scheme: Mist
+#scheme: Pisces
+#scheme: Gemini
+
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+
+# Usage: `Key: /link/ || icon`
+# Key is the name of menu item. If the translation for this item is available, the translated text will be loaded, otherwise the Key name will be used. Key is case-senstive.
+# Value before `||` delimiter is the target link, value after `||` delimiter is the name of Font Awesome icon.
+# When running the site in a subdirectory (e.g. yoursite.com/blog), remove the leading slash from link value (/archives -> archives).
+# External url should start with http:// or https://
+menu:
+  home: / || fa fa-home
+  categories: /categories/ || fa fa-th
+  tags: /tags/ || fa fa-tags
+  archives: /archives/ || fa fa-archive
+  about: /about/ || fa fa-user
+
+# ---------------------------------------------------------------
+# Sidebar Settings
+# See: https://theme-next.org/docs/theme-settings/sidebar
+# ---------------------------------------------------------------
+
+sidebar:
+  # Enable sidebar on narrow view (only for Muse | Mist).
+  onmobile: true
+
+# Sidebar Avatar
+avatar:
+  # Replace the default image and set the url here.
+  url: /img/sys/avatar.jpg
+
+# Social Links
+# Usage: `Key: permalink || icon`
+# Key is the link label showing to end users.
+# Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
+social:
+  GitHub: https://github.com/zylele || fab fa-github
+  微博: http://weibo.com/lelewan || fab fa-weibo
+  领英: https://www.linkedin.com/in/znyalor || fab fa-linkedin
+
+# Blog rolls
+links_settings:
+  title: 「字节跳动」内推渠道
+
+links:
+  #Title: http://yoursite.com
+  「字节跳动」2021校招内推: https://jobs.toutiao.com/s/eJJv4DW
+  「字节跳动」2021社招内推: https://job.toutiao.com/s/eJeBxJQ
+
+# ---------------------------------------------------------------
+# Post Settings
+# See: https://theme-next.org/docs/theme-settings/posts
+# ---------------------------------------------------------------
+
+# Post meta display settings
+post_meta:
+  updated_at:
+    enable: false
+
+# Reward (Donate)
+# Front-matter variable (unsupport animation).
+reward_settings:
+  # If true, reward will be displayed in every article by default.
+  enable: true
+  comment: 点击按钮，多修一个bug
+
+reward:
+    wechatpay: /img/sys/wechat-reward-image.jpg
+    alipay: /img/sys/alipay-reward-image.jpg
+
+# ---------------------------------------------------------------
+# Misc Theme Settings
+# ---------------------------------------------------------------
+
+codeblock:
+  # Code Highlight theme
+  # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
+  # See: https://github.com/chriskempson/tomorrow-theme
+  highlight_theme: night eighties
+
+back2top:
+  enable: true
+  # Back to top in sidebar.
+  sidebar: false
+  # Scroll percent label in b2t button.
+  scrollpercent: true
+
+# ---------------------------------------------------------------
+# Search Services
+# See: https://theme-next.org/docs/third-party-services/search-services
+# ---------------------------------------------------------------
+
+# Local Search
+# Dependencies: https://github.com/theme-next/hexo-generator-searchdb
+local_search:
+  enable: true
+
+# ---------------------------------------------------------------
+# SEO Settings
+# ---------------------------------------------------------------
+
+# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
+baidu_push: true
+
+# ---------------------------------------------------------------
+# Statistics and Analytics
+# See: https://theme-next.org/docs/third-party-services/statistics-and-analytics
+# ---------------------------------------------------------------
+
+# Show Views / Visitors of the website / page with busuanzi.
+# Get more information on http://ibruce.info/2015/04/04/busuanzi
+busuanzi_count:
+  enable: true
