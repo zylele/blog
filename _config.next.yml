@@ -23,15 +23,42 @@ feed:
   template:
 
 # ---------------------------------------------------------------
-# Site Information Settings
-# See: https://theme-next.org/docs/getting-started/
+# Footer Settings
+# See: https://theme-next.js.org/docs/theme-settings/footer
 # ---------------------------------------------------------------
 
+# Show multilingual switcher in footer.
+language_switcher: false
+
 footer:
-  # Specify the date when the site was setup. If not defined, current year will be used.
+  # Specify the year when the site was setup. If not defined, current year will be used.
   since: 2015
+
+  # Icon between year and copyright info.
+  icon:
+    # Icon name in Font Awesome. See: https://fontawesome.com/icons
+    name: fa fa-heart
+    # If you want to animate the icon, set it to true.
+    animated: false
+    # Change the color of icon, using Hex Code.
+    color: "#ff0000"
+
+  # If not defined, `author` from Hexo `_config.yml` will be used.
+  copyright:
+
   # Powered by Hexo & NexT
   powered: false
+
+  # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
+  beian:
+    enable: true
+    icp: 沪ICP备2023004805号-1
+    # The digit in the num of gongan beian.
+    gongan_id: 
+    # The full num of gongan beian.
+    gongan_num:
+    # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download
+    gongan_icon_url:
 
 
 # ---------------------------------------------------------------
