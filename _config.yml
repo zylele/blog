@@ -107,3 +107,24 @@ deploy:
     github: git@github.com:zylele/zylele.github.io.git,master
     # coding: git@git.dev.tencent.com:lle/lle.git,master
   message: Auto CI Builder :{{ now('YYYY-MM-DD HH:mm:ss') }}
+
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-footnote
+    - markdown-it-sup
+    - markdown-it-sub
+    - markdown-it-abbr
+    - markdown-it-emoji
+  anchors:
+    level: 2
+    collisionSuffix: 'v'
+    permalink: true
+    permalinkClass: header-anchor
+    permalinkSymbol: ¶
