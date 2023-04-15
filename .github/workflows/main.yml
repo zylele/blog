@@ -1,6 +1,8 @@
 # workflow name
 name: Hexo Blog CI
 
+permissions: read-all|write-all
+
 # master branch on push, auto run
 on: 
   schedule:
@@ -11,8 +13,6 @@ on:
       
 jobs:
   update_social:
-    permissions:
-      contents: read-all|write-all 
     runs-on: ubuntu-latest
     steps:
       - name: update_social_readme
