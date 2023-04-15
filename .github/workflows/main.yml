@@ -1,7 +1,7 @@
 # workflow name
 name: Hexo Blog CI
 
-permissions: read-all|write-all
+permissions: write-all
 
 # master branch on push, auto run
 on: 
