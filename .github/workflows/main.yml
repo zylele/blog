@@ -21,7 +21,6 @@ jobs:
           blog_rss_link: https://zylele.github.io/atom.xml
           douban_name: znyalor
           file_path: source/about/index.md
-          gh_token: ${{ secrets.GITHUB_TOKEN }}
 
   deploy_blog: 
     needs: update_social
