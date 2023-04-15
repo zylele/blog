@@ -31,9 +31,9 @@ comments: false
 #### 🤾‍♂️ <a href="https://movie.douban.com/people/znyalor/collect" target="_blank">Funny Soul</a>
 
 <!-- START_SECTION:douban -->
+* <a href='http://movie.douban.com/subject/6863961/' target='_blank'>看过伟大的卫国战争 第一季</a> 🌟🌟🌟🌟☆ 推荐- 2023-04-16
 * <a href='http://movie.douban.com/subject/34610636/' target='_blank'>看过蚁人与黄蜂女：量子狂潮</a> 🌟🌟🌟🌟☆ 推荐- 2023-04-12
 * <a href='http://movie.douban.com/subject/35047559/' target='_blank'>看过理想之城</a> 🌟🌟🌟🌟☆ 推荐- 2023-03-10
 * <a href='http://movie.douban.com/subject/26647087/' target='_blank'>看过三体</a> 🌟🌟🌟🌟☆ 推荐- 2023-02-15
 * <a href='http://movie.douban.com/subject/35465232/' target='_blank'>看过狂飙</a> 🌟🌟🌟🌟☆ 推荐- 2023-02-06
-* <a href='http://movie.douban.com/subject/35267208/' target='_blank'>看过流浪地球2</a> 🌟🌟🌟🌟☆ 推荐- 2023-01-25
 <!-- END_SECTION:douban -->
