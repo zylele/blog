@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: social-readme
-      - uses: zylele/social-readme@feature_aaa
+        uses: zylele/social-readme@feature_aaa
         with:
           blog_rss_link: https://zylele.github.io/atom.xml
           douban_name: znyalor
