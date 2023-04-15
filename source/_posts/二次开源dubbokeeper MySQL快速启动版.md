@@ -42,14 +42,14 @@ dubbokeeper-mqs集成监控与展示，节省服务器资源，提供一键编�
 
 ---
 
-![](/img/dubbokeeper-mqs/dubbokeeper-service.png)
+![](https://zylele.github.io/img/dubbokeeper-mqs/dubbokeeper-service.png)
 
 动态配置
 
-![](/img/dubbokeeper-mqs/dubbokeeper-dpc.png)
+![](https://zylele.github.io/img/dubbokeeper-mqs/dubbokeeper-dpc.png)
 
 依赖关系
 
-![](/img/dubbokeeper-mqs/dubbokeeper-monitor.png)
+![](https://zylele.github.io/img/dubbokeeper-mqs/dubbokeeper-monitor.png)
 
 统计信息
