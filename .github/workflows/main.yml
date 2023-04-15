@@ -17,7 +17,7 @@ jobs:
         with:
           blog_rss_link: https://zylele.github.io/atom.xml
           douban_name: znyalor
-          file_path: source/about/index2.md
+          file_path: source/about/index.md
   build: 
     runs-on: ubuntu-latest 
         
