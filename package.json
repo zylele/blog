@@ -27,6 +27,7 @@
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-next": "^8.15.1",
-    "markdown-it-emoji": "^2.0.2"
+    "markdown-it-emoji": "^2.0.2",
+    "hexo-admin": "^2.3.0"
   }
 }
