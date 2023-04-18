@@ -3,6 +3,7 @@ name: Social Readme CI
 
 # auto run
 on: 
+  workflow_dispatch: 
   schedule:
     - cron: '0 0 * * *'
       
