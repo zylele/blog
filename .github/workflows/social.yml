@@ -1,0 +1,19 @@
+# workflow name
+name: Social Readme CI
+
+# auto run
+on: 
+  schedule:
+    - cron: '0 0 * * *'
+      
+jobs:
+  update_social:
+    runs-on: ubuntu-latest
+    steps:
+      - name: update_social_readme
+        uses: zylele/social-readme@feature_aaa
+        with:
+          blog_rss_link: https://zylele.github.io/atom.xml
+          douban_name: znyalor
+          file_path: source/about/index.md
+          gh_token: ${{ secrets.GITHUB_TOKEN }}

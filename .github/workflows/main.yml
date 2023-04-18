@@ -1,29 +1,14 @@
 # workflow name
-name: Hexo Blog CI
+name: Hexo Blog CD
 
 # master branch on push, auto run
 on: 
-  schedule:
-    - cron: '0 0 * * *'
   push:
     branches:
       - master
       
 jobs:
-  update_social:
-    runs-on: ubuntu-latest
-    steps:
-      - name: update_social_readme
-        uses: zylele/social-readme@feature_aaa
-        with:
-          blog_rss_link: https://zylele.github.io/atom.xml
-          douban_name: znyalor
-          file_path: source/about/index.md
-          gh_token: ${{ secrets.GITHUB_TOKEN }}
-
   deploy_blog: 
-    needs: update_social
-
     runs-on: ubuntu-latest 
         
     steps:
@@ -37,6 +22,7 @@ jobs:
         uses: actions/setup-node@master
         with:
           node-version: "18.x"
+          cache: 'npm'
       
       - name: Setup Hexo Dependencies
         run: |
