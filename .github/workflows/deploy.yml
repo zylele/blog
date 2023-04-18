@@ -1,5 +1,5 @@
 # workflow name
-name: Hexo Blog CD
+name: Blog Deploy
 
 # master branch on push, auto run
 on: 
@@ -22,7 +22,6 @@ jobs:
         uses: actions/setup-node@master
         with:
           node-version: "18.x"
-          cache: 'npm'
       
       - name: Setup Hexo Dependencies
         run: |
