@@ -1,14 +1,27 @@
 # workflow name
-name: Blog Deploy
+name: blog-build-deployment
 
 # master branch on push, auto run
 on: 
+  schedule:
+  - cron: '0 0 * * *'
   push:
     branches:
       - master
-      
+  workflow_dispatch:
+
 jobs:
+  update_social:
+    runs-on: ubuntu-latest
+    steps:
+      - name: update_social_readme
+        uses: zylele/social-readme@master
+        with:
+          douban_name: znyalor
+          file_path: source/about/index.md
+
   deploy_blog: 
+    needs: update_social
     runs-on: ubuntu-latest 
         
     steps:
