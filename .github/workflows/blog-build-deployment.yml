@@ -31,7 +31,5 @@ jobs:
       - name: Deploy Hexo 
         run: |
           hexo clean
-          hexo generate 
+          hexo generate
           hexo deploy
-        with:
-          gh_token: ${{ secrets.GH_TOKEN }}
