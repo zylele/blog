@@ -28,7 +28,9 @@ jobs:
           npm install hexo-cli -g
           npm install
       
-      - name: Deploy Hexo 
+      - name: Deploy Hexo
+        with:
+          gh_token: ${{ secrets.GH_TOKEN }}
         run: |
           hexo clean
           hexo generate
