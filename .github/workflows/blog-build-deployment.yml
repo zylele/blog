@@ -10,7 +10,9 @@ on:
 
 jobs:
   deploy_blog: 
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest
+    env:
+      gh_token: ${{ secrets.GH_TOKEN }}
     steps:
       # check it to your workflow can access it
       # from: https://github.com/actions/checkout
@@ -29,8 +31,6 @@ jobs:
           npm install
       
       - name: Deploy Hexo
-        with:
-          gh_token: ${{ secrets.GH_TOKEN }}
         run: |
           hexo clean
           hexo generate
