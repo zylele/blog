@@ -104,9 +104,10 @@ theme: next
 deploy:
   type: git
   repo: 
-    github: git@github.com:zylele/zylele.github.io.git,master
+    github:
+      url: https://github.com/zylele/zylele.github.io.git
+      branch: master
       token: $gh_token
-    # coding: git@git.dev.tencent.com:lle/lle.git,master
   message: Auto CI Builder :{{ now('yyyy-MM-dd HH:mm:ss') }}
 
 markdown:
