@@ -105,9 +105,8 @@ deploy:
   type: git
   repo: 
     github: 
-      url: https://github.com/zylele/zylele.github.io.git
+      url: https://${GH_TOKEN}github.com/zylele/zylele.github.io.git
       branch: master
-      token: $gh_token
   message: Auto CI Builder :{{ now('yyyy-MM-dd HH:mm:ss') }}
 
 markdown:
