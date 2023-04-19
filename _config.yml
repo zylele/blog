@@ -104,13 +104,8 @@ theme: next
 deploy:
   type: git
   repo: 
-    github: 
-      url: https://github.com/zylele/zylele.github.io.git
-      branch: master
-      token: $GH_TOKEN
+    github: git@github.com:zylele/zylele.github.io.git,master
   message: Auto CI Builder :{{ now('yyyy-MM-dd HH:mm:ss') }}
-  name: zylele
-  email: 657345933@qq.com
 
 markdown:
   render:
