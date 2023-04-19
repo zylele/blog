@@ -32,8 +32,6 @@ jobs:
       
       - name: Deploy Hexo
         run: |
-          echo "${{ env.gh_token }}"
-          echo "${{ env.GH_TOKEN }}"
           hexo clean
           hexo generate
           hexo deploy
