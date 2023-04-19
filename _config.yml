@@ -106,7 +106,7 @@ deploy:
   repo: 
     github: git@github.com:zylele/zylele.github.io.git,master
     # coding: git@git.dev.tencent.com:lle/lle.git,master
-  message: Auto CI Builder :{{ now('YYYY-MM-DD HH:mm:ss') }}
+  message: Auto CI Builder :{{ now('yyyy-MM-dd HH:mm:ss') }}
 
 markdown:
   render:
