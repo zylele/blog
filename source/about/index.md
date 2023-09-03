@@ -15,11 +15,11 @@ title: 「关于」
 #### 🤾‍♂️ <a href="https://movie.douban.com/people/znyalor/collect" target="_blank">Funny Soul</a>
 
 <!-- START_SECTION:douban -->
+* <a href='http://movie.douban.com/subject/33447642/' target='_blank'>看过沉默的真相</a> 🌟🌟🌟🌟☆ 推荐- 2023-09-02
 * <a href='http://movie.douban.com/subject/35901863/' target='_blank'>看过黑镜 第六季</a> 🌟🌟🌟☆☆ 还行- 2023-07-23
 * <a href='http://movie.douban.com/subject/35284237/' target='_blank'>看过银河护卫队：圣诞特别篇</a> 🌟🌟🌟🌟☆ 推荐- 2023-05-20
 * <a href='http://movie.douban.com/subject/35603786/' target='_blank'>看过永生战士</a> 🌟🌟🌟☆☆ 还行- 2023-05-18
 * <a href='http://movie.douban.com/subject/6860160/' target='_blank'>看过悲惨世界</a> 🌟🌟🌟☆☆ 还行- 2023-05-18
-* <a href='http://movie.douban.com/subject/26258779/' target='_blank'>看过银河护卫队3</a> 🌟🌟🌟🌟☆ 推荐- 2023-05-14
 <!-- END_SECTION:douban -->
 
 
