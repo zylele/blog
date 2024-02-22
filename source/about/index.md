@@ -15,11 +15,11 @@ title: 「关于」
 #### 🤾‍♂️ <a href="https://movie.douban.com/people/znyalor/collect" target="_blank">Funny Soul</a>
 
 <!-- START_SECTION:douban -->
-* <a href='http://movie.douban.com/subject/30444942/' target='_blank'>看过海王2：失落的王国</a> 🌟🌟🌟☆☆ 还行- 2024-02-21
-* <a href='http://movie.douban.com/subject/35593344/' target='_blank'>看过奥本海默</a> 🌟🌟🌟🌟☆ 推荐- 2024-02-17
-* <a href='http://movie.douban.com/subject/3011317/' target='_blank'>看过闪电侠</a> 🌟🌟🌟☆☆ 还行- 2023-09-28
-* <a href='http://movie.douban.com/subject/30391186/' target='_blank'>看过蜘蛛侠：纵横宇宙</a> 🌟🌟🌟🌟☆ 推荐- 2023-09-28
-* <a href='http://movie.douban.com/subject/33447642/' target='_blank'>看过沉默的真相</a> 🌟🌟🌟🌟☆ 推荐- 2023-09-02
+* <a href='http://movie.douban.com/subject/3335371/' target='_blank'>看过小蝌蚪找妈妈</a> 🌟🌟🌟🌟☆ 推荐- 2024-02-21
+* <a href='http://movie.douban.com/subject/1291838/' target='_blank'>看过红猪</a> 🌟🌟🌟🌟☆ 推荐- 2024-02-21
+* <a href='http://movie.douban.com/subject/1431699/' target='_blank'>看过三个和尚</a> 🌟🌟🌟🌟☆ 推荐- 2024-02-21
+* <a href='http://movie.douban.com/subject/1431718/' target='_blank'>看过神笔</a> 🌟🌟🌟🌟☆ 推荐- 2024-02-21
+* <a href='http://movie.douban.com/subject/1431947/' target='_blank'>看过雪孩子</a> 🌟🌟🌟🌟☆ 推荐- 2024-02-21
 <!-- END_SECTION:douban -->
 
 
