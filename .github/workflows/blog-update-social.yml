@@ -16,4 +16,3 @@ jobs:
         with:
           douban_name: znyalor
           file_path: source/about/index.md
-          gh_token: ${{ secrets.GH_TOKEN }}
