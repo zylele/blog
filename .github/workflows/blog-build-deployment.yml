@@ -7,11 +7,21 @@ on:
     branches:
       - master
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
+  update_social:
+    runs-on: ubuntu-latest
+    steps:
+      - name: update_social_readme
+        uses: zylele/social-readme@master
+        with:
+          douban_name: znyalor
+          file_path: source/about/index.md
+          
   deploy_blog: 
+    needs: [update_social]
     runs-on: ubuntu-latest 
     steps:
       # check it to your workflow can access it
