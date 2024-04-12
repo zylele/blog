@@ -16,4 +16,3 @@ jobs:
         with:
           douban_name: znyalor
           file_path: source/about/index.md
-          gh_token: ${{ secrets.HEXO_DEPLOY_PRIVATE_KEY }}
