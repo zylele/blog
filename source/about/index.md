@@ -15,11 +15,11 @@ title: 「关于」
 #### 🤾‍♂️ <a href="https://movie.douban.com/people/znyalor/collect" target="_blank">Funny Soul</a>
 
 <!-- START_SECTION:douban -->
+* <a href='http://movie.douban.com/subject/1294753/' target='_blank'>看过追梦赤子心</a> 🌟🌟🌟🌟☆ 推荐- 2024-05-18
 * <a href='http://movie.douban.com/subject/1298695/' target='_blank'>看过夺命感应</a> 🌟🌟🌟☆☆ 还行- 2024-04-16
 * <a href='http://movie.douban.com/subject/34444648/' target='_blank'>看过三体</a> 🌟🌟☆☆☆ 较差- 2024-04-10
 * <a href='http://movie.douban.com/subject/3001114/' target='_blank'>看过沙丘</a> 🌟🌟🌟☆☆ 还行- 2024-04-06
 * <a href='http://movie.douban.com/subject/35452077/' target='_blank'>看过爱与死亡</a> 🌟🌟🌟🌟☆ 推荐- 2024-04-05
-* <a href='http://movie.douban.com/subject/1857099/' target='_blank'>看过老无所依</a> 🌟🌟🌟🌟☆ 推荐- 2024-03-22
 <!-- END_SECTION:douban -->
 
 
