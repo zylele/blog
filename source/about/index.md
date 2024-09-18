@@ -15,11 +15,11 @@ title: 「关于」
 #### 🤾‍♂️ <a href="https://movie.douban.com/people/znyalor/collect" target="_blank">Funny Soul</a>
 
 <!-- START_SECTION:douban -->
+* <a href='http://movie.douban.com/subject/1298593/' target='_blank'>看过金刚</a> 🌟🌟🌟☆☆ 还行- 2024-09-17
+* <a href='http://movie.douban.com/subject/35453251/' target='_blank'>看过哥斯拉大战金刚2：帝国崛起</a> 🌟🌟🌟☆☆ 还行- 2024-09-17
 * <a href='http://movie.douban.com/subject/30252495/' target='_blank'>想看1917</a> - 2024-09-10
 * <a href='http://movie.douban.com/subject/1907464/' target='_blank'>看过集结号</a> 🌟🌟🌟🌟🌟 力荐- 2024-09-10
 * <a href='http://movie.douban.com/subject/35258381/' target='_blank'>看过天鹅挽歌</a> 🌟🌟🌟🌟☆ 推荐- 2024-09-10
-* <a href='http://movie.douban.com/subject/35769174/' target='_blank'>看过万湖会议</a> 🌟🌟🌟☆☆ 还行- 2024-09-10
-* <a href='http://movie.douban.com/subject/35665988/' target='_blank'>看过玫瑰的故事</a> 🌟🌟🌟☆☆ 还行- 2024-07-06
 <!-- END_SECTION:douban -->
 
 
