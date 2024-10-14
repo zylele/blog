@@ -15,7 +15,11 @@ title: 「关于」
 #### 🤾‍♂️ <a href="https://movie.douban.com/people/znyalor/collect" target="_blank">Funny Soul</a>
 
 <!-- START_SECTION:douban -->
-
+* <a href='http://movie.douban.com/subject/27195119/' target='_blank'>看过李宗伟：败者为王</a> 🌟🌟🌟☆☆ 还行- 2024-10-14
+* <a href='http://movie.douban.com/subject/33447633/' target='_blank'>看过坚如磐石</a> 🌟🌟🌟☆☆ 还行- 2024-10-14
+* <a href='http://movie.douban.com/subject/1945336/' target='_blank'>看过通缉令</a> 🌟🌟🌟☆☆ 还行- 2024-10-11
+* <a href='http://movie.douban.com/subject/11521799/' target='_blank'>看过长津湖大突围</a> 🌟🌟🌟🌟☆ 推荐- 2024-10-08
+* <a href='http://movie.douban.com/subject/35613853/' target='_blank'>看过长津湖之水门桥</a> 🌟🌟🌟☆☆ 还行- 2024-10-07
 <!-- END_SECTION:douban -->
 
 
