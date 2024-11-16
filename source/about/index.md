@@ -15,11 +15,11 @@ title: 「关于」
 #### 🤾‍♂️ <a href="https://movie.douban.com/people/znyalor/collect" target="_blank">Funny Soul</a>
 
 <!-- START_SECTION:douban -->
-* <a href='http://movie.douban.com/subject/36245733/' target='_blank'>看过只想爱你</a> 🌟🌟🌟☆☆ 还行- 2024-11-15
-* <a href='http://movie.douban.com/subject/35750081/' target='_blank'>看过美国内战</a> 🌟🌟🌟☆☆ 还行- 2024-11-09
-* <a href='http://movie.douban.com/subject/26885074/' target='_blank'>看过叶问4：完结篇</a> 🌟🌟🌟☆☆ 还行- 2024-11-04
-* <a href='http://movie.douban.com/subject/35051512/' target='_blank'>看过我和我的家乡</a> 🌟🌟🌟☆☆ 还行- 2024-11-04
-* <a href='http://movie.douban.com/subject/35294995/' target='_blank'>看过我和我的父辈</a> 🌟🌟🌟☆☆ 还行- 2024-11-04
+* <a href='http://movie.douban.com/subject/1296203/' target='_blank'>看过警察故事3：超级警察</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-16
+* <a href='http://movie.douban.com/subject/1299250/' target='_blank'>看过给爸爸的信</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-16
+* <a href='http://movie.douban.com/subject/1292704/' target='_blank'>看过黄飞鸿之三：狮王争霸</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-16
+* <a href='http://movie.douban.com/subject/1297763/' target='_blank'>看过方世玉</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-16
+* <a href='http://movie.douban.com/subject/1306870/' target='_blank'>看过猛龙过江</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-16
 <!-- END_SECTION:douban -->
 
 
