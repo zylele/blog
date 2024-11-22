@@ -15,11 +15,11 @@ title: 「关于」
 #### 🤾‍♂️ <a href="https://movie.douban.com/people/znyalor/collect" target="_blank">Funny Soul</a>
 
 <!-- START_SECTION:douban -->
-* <a href='http://movie.douban.com/subject/1296203/' target='_blank'>看过警察故事3：超级警察</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-16
-* <a href='http://movie.douban.com/subject/1299250/' target='_blank'>看过给爸爸的信</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-16
-* <a href='http://movie.douban.com/subject/1292704/' target='_blank'>看过黄飞鸿之三：狮王争霸</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-16
-* <a href='http://movie.douban.com/subject/1297763/' target='_blank'>看过方世玉</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-16
-* <a href='http://movie.douban.com/subject/1306870/' target='_blank'>看过猛龙过江</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-16
+* <a href='http://movie.douban.com/subject/4212172/' target='_blank'>看过十二生肖</a> 🌟🌟🌟☆☆ 还行- 2024-11-22
+* <a href='http://movie.douban.com/subject/25881247/' target='_blank'>看过边境杀手</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-22
+* <a href='http://movie.douban.com/subject/4914468/' target='_blank'>看过冰川时代4</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-22
+* <a href='http://movie.douban.com/subject/10574622/' target='_blank'>看过人再囧途之泰囧</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-22
+* <a href='http://movie.douban.com/subject/1291574/' target='_blank'>看过玩具总动员2</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-22
 <!-- END_SECTION:douban -->
 
 
