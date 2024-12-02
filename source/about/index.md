@@ -15,11 +15,11 @@ title: 「关于」
 #### 🤾‍♂️ <a href="https://movie.douban.com/people/znyalor/collect" target="_blank">Funny Soul</a>
 
 <!-- START_SECTION:douban -->
+* <a href='http://movie.douban.com/subject/1441238/' target='_blank'>看过面纱</a> 🌟🌟🌟🌟☆ 推荐- 2024-12-01
 * <a href='http://movie.douban.com/subject/26615208/' target='_blank'>看过隐藏人物</a> 🌟🌟🌟☆☆ 还行- 2024-11-26
 * <a href='http://movie.douban.com/subject/3072064/' target='_blank'>看过飞鹰艾迪</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-26
 * <a href='http://movie.douban.com/subject/20388223/' target='_blank'>看过激战</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-26
 * <a href='http://movie.douban.com/subject/11520649/' target='_blank'>看过麦克法兰</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-26
-* <a href='http://movie.douban.com/subject/20495023/' target='_blank'>看过寻梦环游记</a> 🌟🌟🌟🌟☆ 推荐- 2024-11-23
 <!-- END_SECTION:douban -->
 
 
