@@ -3,6 +3,7 @@ title: 自动构建社交feed到你的主页
 date: 2024-12-03 23:19:05
 tags: 
   - 持续集成
+  - GitHub
 ---
 
 项目地址：[social-readme](https://github.com/zylele/social-readme)，欢迎点个star～
@@ -10,6 +11,8 @@ tags:
 Automatically build Social feeds in your Profile Readme everyday, preview: <a href="https://github.com/zylele" target="_blank">github.com/zylele</a>
 
 自动构建社交feed到你的主页readme中，预览：<a href="https://github.com/zylele" target="_blank">github.com/zylele</a>
+
+<!-- more -->
 
 ![image](https://user-images.githubusercontent.com/12383106/233308515-09e00a2a-9277-44a7-ba7b-1e975c50a326.png)
 
