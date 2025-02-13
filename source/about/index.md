@@ -15,11 +15,7 @@ title: 「关于」
 #### 🤾‍♂️ <a href="https://movie.douban.com/people/znyalor/collect" target="_blank">Funny Soul</a>
 
 <!-- START_SECTION:douban -->
-* <a href='http://movie.douban.com/subject/36401998/' target='_blank'>看过只此青绿</a> 🌟🌟🌟🌟☆ 推荐- 2025-01-05
-* <a href='http://movie.douban.com/subject/3792848/' target='_blank'>看过相助</a> 🌟🌟🌟🌟☆ 推荐- 2025-01-05
-* <a href='http://movie.douban.com/subject/25890017/' target='_blank'>看过哥斯拉2：怪兽之王</a> 🌟🌟🌟☆☆ 还行- 2024-12-28
-* <a href='http://movie.douban.com/subject/2063914/' target='_blank'>看过哥斯拉</a> 🌟🌟🌟☆☆ 还行- 2024-12-28
-* <a href='http://movie.douban.com/subject/26758243/' target='_blank'>看过清明上河图密码</a> 🌟🌟🌟☆☆ 还行- 2024-12-28
+
 <!-- END_SECTION:douban -->
 
 
