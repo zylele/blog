@@ -15,11 +15,11 @@ title: 「关于」
 #### 🤾‍♂️ <a href="https://movie.douban.com/people/znyalor/collect" target="_blank">Funny Soul</a>
 
 <!-- START_SECTION:douban -->
-* <a href='http://movie.douban.com/subject/26685451/' target='_blank'>看过流浪猫鲍勃</a> 🌟🌟🌟☆☆ 还行- 2025-02-13
-* <a href='http://movie.douban.com/subject/36401998/' target='_blank'>看过只此青绿</a> 🌟🌟🌟🌟☆ 推荐- 2025-01-05
-* <a href='http://movie.douban.com/subject/3792848/' target='_blank'>看过相助</a> 🌟🌟🌟🌟☆ 推荐- 2025-01-05
-* <a href='http://movie.douban.com/subject/25890017/' target='_blank'>看过哥斯拉2：怪兽之王</a> 🌟🌟🌟☆☆ 还行- 2024-12-28
-* <a href='http://movie.douban.com/subject/2063914/' target='_blank'>看过哥斯拉</a> 🌟🌟🌟☆☆ 还行- 2024-12-28
+* <a href='http://movie.douban.com/subject/25827935/' target='_blank'>看过七月与安生</a> 🌟🌟🌟☆☆ 还行- 2025-02-17
+* <a href='http://movie.douban.com/subject/3592853/' target='_blank'>看过饥饿游戏</a> 🌟🌟🌟☆☆ 还行- 2025-02-17
+* <a href='http://movie.douban.com/subject/1296837/' target='_blank'>看过洪熙官</a> 🌟🌟🌟🌟☆ 推荐- 2025-02-17
+* <a href='http://movie.douban.com/subject/1308722/' target='_blank'>看过十面埋伏</a> 🌟🌟🌟☆☆ 还行- 2025-02-17
+* <a href='http://movie.douban.com/subject/1306123/' target='_blank'>看过英雄</a> 🌟🌟🌟🌟☆ 推荐- 2025-02-17
 <!-- END_SECTION:douban -->
 
 
