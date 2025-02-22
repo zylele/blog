@@ -15,11 +15,11 @@ title: 「关于」
 #### 🤾‍♂️ <a href="https://movie.douban.com/people/znyalor/collect" target="_blank">Funny Soul</a>
 
 <!-- START_SECTION:douban -->
+* <a href='http://movie.douban.com/subject/1303394/' target='_blank'>看过青蛇</a> 🌟🌟🌟🌟☆ 推荐- 2025-02-21
+* <a href='http://movie.douban.com/subject/1291557/' target='_blank'>看过花样年华</a> 🌟🌟🌟🌟☆ 推荐- 2025-02-21
+* <a href='http://movie.douban.com/subject/1292679/' target='_blank'>看过春光乍泄</a> 🌟🌟🌟🌟☆ 推荐- 2025-02-21
+* <a href='http://movie.douban.com/subject/1294371/' target='_blank'>看过摩登时代</a> 🌟🌟🌟🌟☆ 推荐- 2025-02-21
 * <a href='http://movie.douban.com/subject/25827935/' target='_blank'>看过七月与安生</a> 🌟🌟🌟☆☆ 还行- 2025-02-17
-* <a href='http://movie.douban.com/subject/3592853/' target='_blank'>看过饥饿游戏</a> 🌟🌟🌟☆☆ 还行- 2025-02-17
-* <a href='http://movie.douban.com/subject/1296837/' target='_blank'>看过洪熙官</a> 🌟🌟🌟🌟☆ 推荐- 2025-02-17
-* <a href='http://movie.douban.com/subject/1308722/' target='_blank'>看过十面埋伏</a> 🌟🌟🌟☆☆ 还行- 2025-02-17
-* <a href='http://movie.douban.com/subject/1306123/' target='_blank'>看过英雄</a> 🌟🌟🌟🌟☆ 推荐- 2025-02-17
 <!-- END_SECTION:douban -->
 
 
