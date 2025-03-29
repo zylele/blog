@@ -15,11 +15,11 @@ title: 「关于」
 #### 🤾‍♂️ <a href="https://movie.douban.com/people/znyalor/collect" target="_blank">Funny Soul</a>
 
 <!-- START_SECTION:douban -->
-* <a href='http://movie.douban.com/subject/3237723/' target='_blank'>看过三国</a> 🌟🌟🌟🌟☆ 推荐- 2025-03-28
-* <a href='http://movie.douban.com/subject/1830528/' target='_blank'>看过三国演义</a> 🌟🌟🌟🌟☆ 推荐- 2025-03-28
-* <a href='http://movie.douban.com/subject/35801819/' target='_blank'>看过珀尔</a> 🌟🌟🌟☆☆ 还行- 2025-03-17
-* <a href='http://movie.douban.com/subject/36421270/' target='_blank'>看过完美伴侣</a> 🌟🌟🌟☆☆ 还行- 2025-03-17
-* <a href='http://movie.douban.com/subject/6531219/' target='_blank'>看过情动假日</a> 🌟🌟🌟🌟☆ 推荐- 2025-03-02
+* <a href='https://movie.douban.com/subject/3237723/' target='_blank'>看过三国</a> 🌟🌟🌟🌟☆ 推荐- 2025-03-28
+* <a href='https://movie.douban.com/subject/1830528/' target='_blank'>看过三国演义</a> 🌟🌟🌟🌟☆ 推荐- 2025-03-28
+* <a href='https://movie.douban.com/subject/35801819/' target='_blank'>看过珀尔</a> 🌟🌟🌟☆☆ 还行- 2025-03-17
+* <a href='https://movie.douban.com/subject/36421270/' target='_blank'>看过完美伴侣</a> 🌟🌟🌟☆☆ 还行- 2025-03-17
+* <a href='https://movie.douban.com/subject/6531219/' target='_blank'>看过情动假日</a> 🌟🌟🌟🌟☆ 推荐- 2025-03-02
 <!-- END_SECTION:douban -->
 
 
