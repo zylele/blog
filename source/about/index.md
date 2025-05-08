@@ -15,11 +15,11 @@ title: 「关于」
 #### 🤾‍♂️ <a href="https://movie.douban.com/people/znyalor/collect" target="_blank">Funny Soul</a>
 
 <!-- START_SECTION:douban -->
+* <a href='https://movie.douban.com/subject/35087675/' target='_blank'>看过毒液：最后一舞</a> 🌟🌟☆☆☆ 较差- 2025-05-07
 * <a href='https://movie.douban.com/subject/36653963/' target='_blank'>看过黑镜 第七季</a> 🌟🌟🌟🌟☆ 推荐- 2025-04-25
 * <a href='https://movie.douban.com/subject/34805219/' target='_blank'>看过饥饿站台</a> 🌟🌟🌟☆☆ 还行- 2025-04-24
 * <a href='https://movie.douban.com/subject/24405378/' target='_blank'>看过王牌特工：特工学院</a> 🌟🌟🌟☆☆ 还行- 2025-04-19
 * <a href='https://movie.douban.com/subject/26602795/' target='_blank'>看过杰罗德游戏</a> 🌟🌟🌟☆☆ 还行- 2025-04-10
-* <a href='https://movie.douban.com/subject/1966464/' target='_blank'>看过苹果</a> 🌟🌟🌟🌟☆ 推荐- 2025-04-07
 <!-- END_SECTION:douban -->
 
 
