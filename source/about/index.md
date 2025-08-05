@@ -15,7 +15,11 @@ title: 「关于」
 #### 🤾‍♂️ <a href="https://movie.douban.com/people/znyalor/collect" target="_blank">Funny Soul</a>
 
 <!-- START_SECTION:douban -->
-
+* <a href='https://movie.douban.com/subject/1867345/' target='_blank'>看过遗愿清单</a> 🌟🌟🌟🌟☆ 推荐- 2025-07-28
+* <a href='https://movie.douban.com/subject/36809864/' target='_blank'>看过南京照相馆</a> 🌟🌟🌟🌟🌟 力荐- 2025-07-26
+* <a href='https://movie.douban.com/subject/1307144/' target='_blank'>看过一见钟情</a> 🌟🌟🌟🌟☆ 推荐- 2025-07-25
+* <a href='https://movie.douban.com/subject/3041749/' target='_blank'>看过天伦之旅</a> 🌟🌟🌟🌟☆ 推荐- 2025-07-11
+* <a href='https://movie.douban.com/subject/27006896/' target='_blank'>看过世界奇妙物语 2017年春季特别篇</a> 🌟🌟🌟🌟☆ 推荐- 2025-07-05
 <!-- END_SECTION:douban -->
 
 
