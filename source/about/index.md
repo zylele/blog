@@ -15,11 +15,11 @@ title: 「关于」
 #### 🤾‍♂️ <a href="https://movie.douban.com/people/znyalor/collect" target="_blank">Funny Soul</a>
 
 <!-- START_SECTION:douban -->
+* <a href='https://movie.douban.com/subject/30412658/' target='_blank'>看过里斯本丸沉没</a> 🌟🌟🌟🌟🌟 力荐- 2025-10-22
+* <a href='https://movie.douban.com/subject/26660874/' target='_blank'>看过东极岛</a> 🌟🌟☆☆☆ 较差- 2025-10-22
 * <a href='https://movie.douban.com/subject/26728669/' target='_blank'>看过风中有朵雨做的云</a> 🌟🌟🌟☆☆ 还行- 2025-10-13
 * <a href='https://movie.douban.com/subject/35295339/' target='_blank'>看过峡谷</a> 🌟🌟🌟☆☆ 还行- 2025-09-15
 * <a href='https://movie.douban.com/subject/1433577/' target='_blank'>看过赛末点</a> 🌟🌟🌟🌟☆ 推荐- 2025-09-15
-* <a href='https://movie.douban.com/subject/2174127/' target='_blank'>看过我想成为贝壳</a> 🌟🌟🌟☆☆ 还行- 2025-08-09
-* <a href='https://movie.douban.com/subject/1867345/' target='_blank'>看过遗愿清单</a> 🌟🌟🌟🌟☆ 推荐- 2025-07-28
 <!-- END_SECTION:douban -->
 
 
