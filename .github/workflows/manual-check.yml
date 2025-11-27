@@ -1,0 +1,19 @@
+name: Manual Dependency Check
+on: [workflow_dispatch]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Setup Node.js
+        uses: actions/setup-node@master
+        with:
+          node-version: '20.x'
+
+      - name: Check updates
+        run: |
+          npx npm-check-updates --format table
+          echo "## 更新建议" >> $GITHUB_STEP_SUMMARY
+          npx npm-check-updates --format table >> $GITHUB_STEP_SUMMARY
