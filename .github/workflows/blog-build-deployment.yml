@@ -33,7 +33,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@master
         with:
-          node-version: "18.x"
+          node-version: "20.x"
       
       - name: Setup Hexo Dependencies
         run: |
