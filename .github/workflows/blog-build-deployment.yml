@@ -49,7 +49,7 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           
-      - name: Setup Git Infomation
+      - name: Setup Git Information
         run: |
           git config --global user.name 'zylele' 
           git config --global user.email '657345933@qq.com'
