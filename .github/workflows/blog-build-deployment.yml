@@ -12,6 +12,8 @@ on:
 
 jobs:
   update_social:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+
     runs-on: ubuntu-latest
     steps:
       - name: update_social_readme
@@ -20,9 +22,12 @@ jobs:
           douban_name: znyalor
           file_path: source/about/index.md
           
-  deploy_blog: 
-    needs: [update_social]
-    runs-on: ubuntu-latest 
+  deploy_blog:
+    # 动态设置 needs
+    needs: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && 'update_social' || '' }}
+    if: always()  # 确保在 push 时也能运行
+
+    runs-on: ubuntu-latest
     steps:
       # check it to your workflow can access it
       # from: https://github.com/actions/checkout
