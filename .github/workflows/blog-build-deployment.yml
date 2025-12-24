@@ -12,7 +12,7 @@ on:
 
 jobs:
   update_social:
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    if: ${{ contains(fromJSON('["schedule", "workflow_dispatch"]'), github.event_name) }}
 
     runs-on: ubuntu-latest
     steps:
@@ -24,8 +24,9 @@ jobs:
           
   deploy_blog:
     # 动态设置 needs
-    needs: ${{ (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') && 'update_social' || '' }}
-    if: always()  # 确保在 push 时也能运行
+    needs: [update_social]
+    if: |
+      github.event_name == 'push' || needs.update_social.result == 'success'
 
     runs-on: ubuntu-latest
     steps:
