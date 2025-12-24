@@ -6,3 +6,9 @@ node_modules/
 public/
 .deploy*/
 package-lock.json
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
