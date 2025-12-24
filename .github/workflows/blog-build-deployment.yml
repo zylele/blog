@@ -24,10 +24,8 @@ jobs:
           
   deploy_blog:
     # 动态设置 needs
-    needs: ${{ !contains(fromJSON('["push"]'), github.event_name) && 'update_social' || '' }}
-
-    if: |
-      github.event_name == 'push' || needs.update_social.result == 'success'
+    needs: [update_social]
+    if: always()
 
     runs-on: ubuntu-latest
     steps:
