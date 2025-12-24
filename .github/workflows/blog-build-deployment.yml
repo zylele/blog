@@ -29,10 +29,6 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-      - name: Execute Job2
-        run: |
-          echo "github.event_name: ${{ github.event_name }}"
-          echo "contains?: ${{ contains(fromJSON('["schedule", "workflow_dispatch"]'), github.event_name) }}"
       # check it to your workflow can access it
       # from: https://github.com/actions/checkout
       - name: Checkout Repository master branch
