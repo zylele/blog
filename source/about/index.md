@@ -25,4 +25,4 @@ title: 「关于」
 
 #### 📈 一点微小的工作
 
-![Eric's GitHub stats](https://github-readme-stats.vercel.app/api?username=zylele&show_icons=true&count_private=true&theme=vue)
+![Stats](./profile/stats.svg)
