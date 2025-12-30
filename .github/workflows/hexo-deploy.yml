@@ -2,15 +2,12 @@
 name: hexo-deploy
 
 # master branch on push, auto run
-on: 
-  push:
-    branches:
-      - master
+on:
+  workflow_call:
+#  push:
+#    branches:
+#      - master
   workflow_dispatch:
-  workflow_run:
-    workflows: [ "update-social" ]
-    types:
-      - completed
 
 jobs:
   hexo-deploy:
