@@ -1,5 +1,5 @@
 # workflow name
-name: blog-build-deployment
+name: hexo-deploy
 
 # master branch on push, auto run
 on: 
