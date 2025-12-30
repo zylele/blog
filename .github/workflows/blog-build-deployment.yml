@@ -13,7 +13,6 @@ on:
 jobs:
   update_social:
     if: ${{ contains(fromJSON('["schedule", "workflow_dispatch"]'), github.event_name) }}
-
     runs-on: ubuntu-latest
     steps:
       - name: update_social_readme
@@ -23,6 +22,7 @@ jobs:
           file_path: source/about/index.md
 
   update_stats_cards:
+    if: ${{ contains(fromJSON('["schedule", "workflow_dispatch"]'), github.event_name) }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
