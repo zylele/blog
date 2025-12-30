@@ -5,9 +5,9 @@ name: Auto Deployment
 on:
   schedule:
     - cron: "0 0 * * *"
-#  push:
-#    branches:
-#      - master
+  push:
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:
@@ -38,6 +38,7 @@ jobs:
       - name: Commit cards
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
+          commit_message: Updated github stats by readme-tools
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
           commit_author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
