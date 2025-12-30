@@ -127,3 +127,7 @@ markdown:
     permalink: true
     permalinkClass: header-anchor
     permalinkSymbol: ¶
+
+all_minifier: true
+image_minifier:
+  exclude: [svg]
