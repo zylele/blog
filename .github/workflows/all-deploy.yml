@@ -1,14 +1,18 @@
 # workflow name
-name: Scheduled deployment
+name: Auto Deployment
 
 # master branch on push, auto run
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
+#  push:
+#    branches:
+#      - master
   workflow_dispatch:
 
 jobs:
   update-social:
+    if: ${{ contains(fromJSON('["schedule", "workflow_dispatch"]'), github.event_name) }}
     runs-on: ubuntu-latest
     steps:
       - name: update_social_readme
@@ -18,6 +22,7 @@ jobs:
           file_path: source/about/index.md
 
   update-github-stat:
+    if: ${{ contains(fromJSON('["schedule", "workflow_dispatch"]'), github.event_name) }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -38,7 +43,42 @@ jobs:
           commit_author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           file_pattern: source/profile/*.svg
 
-  call-reusable:
+  hexo-deploy:
     needs: [ update-social, update-github-stat ]
     if: always()
-    uses: ./.github/workflows/hexo-deploy.yml
+    runs-on: ubuntu-latest
+    steps:
+      # check it to your workflow can access it
+      # from: https://github.com/actions/checkout
+      - name: Checkout Repository master branch
+        uses: actions/checkout@master
+
+      # from: https://github.com/actions/setup-node
+      - name: Setup Node.js
+        uses: actions/setup-node@master
+        with:
+          node-version: "20.x"
+
+      - name: Setup Hexo Dependencies
+        run: |
+          npm install hexo-cli -g
+          npm install
+
+      - name: Setup Deploy Private Key
+        env:
+          HEXO_DEPLOY_PRIVATE_KEY: ${{ secrets.HEXO_DEPLOY_PRIVATE_KEY }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$HEXO_DEPLOY_PRIVATE_KEY" > ~/.ssh/id_rsa 
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+      - name: Setup Git Information
+        run: |
+          git config --global user.name 'zylele'
+          git config --global user.email '657345933@qq.com'
+      - name: Deploy Hexo
+        run: |
+          hexo clean
+          hexo generate 
+          hexo deploy
