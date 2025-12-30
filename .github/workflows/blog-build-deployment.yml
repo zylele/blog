@@ -33,7 +33,7 @@ jobs:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true
           path: source/profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ github.token }}
 
       - name: Commit cards
         uses: stefanzweifel/git-auto-commit-action@v5
