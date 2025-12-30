@@ -21,10 +21,26 @@ jobs:
         with:
           douban_name: znyalor
           file_path: source/about/index.md
+
+  update_stats_cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true
+          path: source/profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        uses: stefanzweifel/git-auto-commit-action@v5
           
   deploy_blog:
     # 动态设置 needs
-    needs: [update_social]
+    needs: [update_social, update_stats_cards]
     if: always()
 
     runs-on: ubuntu-latest
